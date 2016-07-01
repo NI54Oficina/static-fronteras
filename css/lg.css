@@ -1,0 +1,44 @@
+@media screen and (min-width: 1200px) and (max-width:1500px ){
+
+
+.col-lg-2-5 {
+	width: 20%;
+}
+
+.hidden-lg-2{
+	display: none;
+}
+
+.home-bottom-box p {
+	margin-top: 5%;
+}
+
+
+.col-lg-2-6{
+	width:16%;
+}
+
+
+.col-lg-2-7 {
+	width: 14.28%;
+}
+
+
+.header-palabras-menu{
+	padding-left:20px;
+}
+
+.container-modalidad {
+    margin-left: 10px;
+	}
+
+#ul-nav-principal {
+		padding-left:15px;
+	}
+
+	#inner-header{
+		height:2.5em !important;
+	}
+
+/*CIERRE DE LLLAVE*/
+}

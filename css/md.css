@@ -1,0 +1,33 @@
+@media  screen and (min-width: 992px) and (max-width: 1200px){
+
+
+
+/*ESCRIBIR ADENTRO DE ESTE MEDIA QUERY*/
+
+.col-md-2-5 {
+	width: 20%;
+}
+
+#home{
+	padding: 0;
+}
+
+.box-noticias #noticia-box {
+	height: auto !important;
+}
+
+.col-md-2-6{
+	width:16%;
+}
+
+.col-md-2-7 {
+	width: 14.28%;
+}
+
+	#inner-header{
+		height:2.5em !important;
+	}
+
+
+/*FIN DE LLAVES PRINCIPALES*/
+}

@@ -1,0 +1,769 @@
+/* IPAD  Landscape */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)  {
+	.line-not {
+		margin-top: 1%;
+		width: 48vw;
+	}
+	.columna-granos p {
+		font-size: 1.3rem;
+		padding-left: 0px;
+	}
+
+	.box-noticias > a>div {
+		padding-bottom: 3%;
+	}
+
+	.columna-indicadores p {
+		font-size: 1.3rem;
+		padding-left: 5px;
+	}
+
+	.p-header-mobile {
+		width: 8vw;
+	}
+
+	.box-mercado .table-mercado-items .moneda-mercados {
+		font-size: 1rem;
+		padding-left: 0px;
+	}
+
+	.columna-ganado p {
+		font-size: 1.3rem;
+		padding-left: 5px;
+
+	}
+	.planes-box p {
+		padding-top: 40px;
+		width: 130px;
+	}
+
+	.enfermedades-box p {
+		font-size: 1.3rem;
+	}
+
+	.title-remates h2 {
+		font-size: 1.3rem;
+	}
+
+
+	.box-noticias .container-texto-noticias > p,
+	.box-noticias .container-texto-noticias-3 > p,
+	.box-noticias .container-texto-noticias-2 > p {
+ 		line-height: 100%;
+	}
+
+	.box-noticias .container-texto-noticias,
+	.box-noticias .container-texto-noticias-2,
+	.box-noticias .container-texto-noticias-3{
+		min-height: 185px;
+	}
+
+
+/*fin ipad landscape*/
+}
+
+/*MEDIA QUERY PARA IPAD PORTRAIT*/
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+
+	.line-not {
+		margin-top: 2%;
+		width: 32vw;
+	}
+
+
+	.home-box > div > div >img {
+		width:45%;
+	}
+
+	.ul-nav li {
+		text-align: center;
+	}
+
+	.header-palabras-menu {
+		margin-top: -47px;
+	}
+
+	.p-header-mobile {
+		width: 10vw;
+	}
+
+
+
+	.box-producir-2 p {
+		font-size: 1em;
+	}
+
+	.planes-box p {
+		color: white;
+		font-size: 22px;
+		margin: 0;
+		text-align: center;
+		min-height: 200px;
+		padding-top: 50px;
+		width: 130px;
+	}
+
+	.container-fecha-remates p:first-child {
+		font-size: 1.3rem;
+	}
+
+	.container-fecha-remates p:nth-child(2) {
+		font-size: 3rem;
+	}
+
+	.container-fecha-remates p:nth-child(3) {
+		font-size: 1.5rem;
+	}
+
+	.columna-ganado p {
+		font-size: 1.4rem;
+		padding-left: 5px;
+	}
+
+	.box-mercado .table-mercado-items .moneda-mercados {
+    text-align: left;
+padding-left: 10px;
+color: #8c8c8c;
+font-size: 1.2rem;
+font-weight: normal;
+
+	}
+
+  .box-mercado-clima-noticias > a > .maxboxes{
+    padding-bottom: 5px;
+    margin-bottom:10px;
+  }
+.title-remates{
+	height: 50px;
+}
+  #ul-nav-principal{
+    font-size: 1.2em;
+  }
+  .p-header-mobile {
+    width: 10.5vw;
+}
+  .cont-menu-mob {
+    padding-right:0;
+
+  }
+
+  /*ESTADO CORPORAL*/
+  .img-ganado{
+    width: 100%;
+  }
+  .ganado-col-1{
+    text-align: center;;
+    padding:0 10px;
+  }
+    .ganado-col-2{
+    text-align: left;
+    padding:0 10px;
+  }
+
+  /*FIN ESTADO COPORAL*/
+
+  /*GANADO - LAS VACAS*/
+
+  .ganado-col-2 h1 {
+    text-align: center;
+}
+
+
+.contenedor-botones-mobile, .text-ganado{
+  margin-top: 25px;
+  margin-bottom: 10px
+}
+
+.boton-ganado{
+  margin: 0;
+  width: 30px;
+  height: 30px;
+}
+
+  /*TERMINA GANADO - LAS VACAS*/
+
+
+/*IPAD portrait*/
+}
+
+
+
+
+
+
+/*IPAD LANDSCAPE & PORTRAIT*/
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)  {
+
+	#contenedor, #noticias, .section{
+		padding: 150px 45px;
+	}
+
+	#ul-nav-principal {
+		padding-left:30px;
+	}
+
+
+  .boton-volver-header{
+    padding-left: 20px;
+  }
+
+  .remates-box {
+      padding: 1px 1px;
+
+      }
+
+
+/*PRUEBAS PARA EL HEADER DE IPAD*/
+
+    .square-separador{
+      margin-top: 0px !important;
+      padding-top: 7px !important;
+    }
+
+    .p-header-mobile{
+      margin-top: 0px !important;
+      padding-top: 7px !important;
+    }
+
+    #inner-header {
+    height: 2.5em !important;
+  }
+
+    /* TERMINA PRUEBAS PARA EL HEADER DE IPAD*/
+
+ /*GANADO - LAS VACAS*/
+
+    .nav-dots{
+      margin-top: 10px;
+    }
+
+  /*FIN GANADO - LAS VACAS*/
+}
+
+
+/*FIN IPAD LANDSCAPE & PORTRAIT*/
+
+/*media query resoluciones 360x240*/
+
+@media only screen and (max-width: 240px){
+	/***********PRODUCIR *************/
+
+
+	.box-producir-2 p {
+		font-size: 0.8em ;
+		word-wrap: break-word;
+	}
+
+
+	/*********HOME*******/
+
+	.home-box > div > div >img {
+		width:40%;
+	}
+
+	.home-box p{
+		font-size: 0.8em;
+	}
+
+
+	/*******MERCADOS******/
+
+	.box-mercado > div > div {
+		height: auto;
+	}
+
+	.box-mercado-title h1 {
+		font-size: 2em;
+	}
+
+	 /**********CLIMA**********/
+
+	.box-clima .box-clima-inner{
+		padding: 20px 5px;
+	}
+
+	.box-clima .small-boxes-mercado > img {
+		width: 80%;
+	}
+
+	.box-clima .fecha-descripcion{
+		margin-bottom: 10px;
+	}
+
+	/***********HOY********/
+
+
+	#clima [hid="1"], #mercados [hid="1"]  {
+		height: auto !important;
+	}
+
+	.maxboxes-inner {
+		padding: 25px 5px;
+	}
+	.clima-pronostico >.small-boxes-mercado p:nth-child(2) {
+		font-size: 1em;
+	}
+	.maxbox-clima h3{
+		font-size: 2em;
+	}
+
+	.box-mercado-clima-noticias .small-boxes-mercado p {
+		font-size: 1.3em;
+	}
+	.box-mercado-clima-noticias .small-boxes-mercado h4 {
+		font-size: 1.1em;
+	}
+
+	.maxbox-clima .small-boxes-mercado p:first-child {
+    	font-size: 1.5em;
+    	padding-left: 10px;
+	}
+
+}
+/*FIN MEDIA QUERY 360x240px*/
+
+
+/*media query resoluciones 360x240 portrait*/
+@media only screen and (max-width: 370px) and (orientation: portrait)
+{
+
+
+}
+
+/*FIN MEDIA QUERY 360x240px portrait*/
+
+
+
+/** SMALL PHONE 240x320 PORTRAIT**/
+@media only screen
+and (min-device-width : 240px)
+and (max-device-width : 320px)
+and (orientation : portrait){
+
+
+  .gota-producir {
+    padding: 15px 5px;
+  }
+
+	.home-box > div > div:nth-child(1) {
+		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
+	}
+	.mapa-clima h3 {
+		padding-top: 8px;
+	}
+
+	.container-inside-noticia .titulo{
+		color: #2ED7AA;
+		font-size: 30px;
+	}
+
+	.container-inside-noticia, .noticia-columna {
+		padding: 0px 20px;
+	}
+
+	.ul-nav li a {
+		padding-top: 60px;
+		color: white;
+	}
+
+	.ul-nav li {
+		padding-left: 0;
+		margin-top: -6px;
+	}
+
+	.cont-section-mobile {
+		height: 90px!important;
+		width: 40vw!important;
+		display: block;
+	}
+
+	.titulo-mobile > p {
+		font-size: 1.2rem;
+	}
+
+	.header-palabras-menu {
+		margin-top: 0;
+	}
+
+	.box-mercado {
+		padding: 0 5px;
+		border: none;
+		font-family: 'arialregular';
+	}
+
+	.home-upper-box {
+		padding: 15px 7px;
+		display: block;
+	}
+
+	.home-upper-box img:nth-child(1) {
+
+		width: 4.5em;
+	}
+
+	.home-upper-box > div {
+		padding: 3px;
+	}
+	.columna-ganado p {
+		font-size: 1rem;
+		padding-left: 5px;
+	}
+
+	.table-mercado-items div p {
+		padding-left: 5px;
+		font-size: .7em;
+	}
+
+	.columna-indicadores p {
+		font-size: 1rem;
+		padding-left: 4px;
+	}
+
+	.box-mercado .table-mercado-items .moneda-mercados {
+		font-size: .7em;
+		padding-left: 5px;
+	}
+
+	.columna-granos p {
+		font-size: 1rem;
+		padding-left: 5px;
+	}
+
+	.long-word{
+		font-size:.65em;
+	}
+
+  .long-title{
+    font-size: 1.5em !important;
+  }
+
+	#lluvias-temperaturas-h1 {
+		text-align: center;
+		color: #FFFFFF;
+		font-size: 23px;
+		margin: 0;
+		padding-top: 70px;
+		width: 140px;
+	}
+
+	.planes-box p {
+		/*padding-top: 16px;*/
+		font-size: 1.2rem;
+	}
+
+	.planes-box p {
+		/*width: 62px;*/
+	}
+
+	.fecha-remates-mobile {
+		font-size: 1em;
+	}
+
+	.container-inside-noticia img {
+		width: 100%;
+		height: auto;
+	}
+
+
+/*.box-clima, */
+  .box-mercado-clima-noticias, .box-noticias {
+    padding: 0px 10px;
+  }
+
+
+
+	/*
+	.ul-nav li {
+		margin-left: 9px;
+	}*/
+
+}
+
+/** FIN**/
+
+@media only screen
+and (min-device-width : 240px)
+and (max-device-width : 320px)
+and (orientation : landscape){
+
+
+
+	header #inner-header .home-upper-box {
+		padding: 0px 20px;
+	}
+
+	header .home-upper-box > div {
+		padding: 5px;
+	}
+
+	/*header .home-upper-box img:nth-child(1) {
+		float: none;
+		width: 4em;
+	}*/
+
+	header .cont-menu-mob {
+		padding: 2px 11px;
+	}
+
+	header .home-box > div > div > img {
+		/*width: 23%;*/
+	}
+
+	header .cont-section-mobile {
+		height: 40px!important;
+		width: 40vw!important;
+		display: block;
+	}
+
+	.ul-nav li {
+		padding-left: 0;
+	}
+
+	header .p-header-mobile {
+		font-size: .9em;
+	}
+
+	header .home-box > div > div:nth-child(1) {
+		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
+		/*padding: 2% 0%;*/
+	}
+}
+
+
+/** NOKIA LUMIA 320x533 PORTRAIT**/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 533px)
+and (orientation : portrait){
+
+	/*Cajas clima*/
+	.box-clima-sp{
+		margin-top: 50px;
+	}
+
+	/* Imágenes interior noticias */
+	.container-inside-noticia img {
+		width: 80vw;
+		height: 27vh;
+	}
+
+}
+
+/** FIN**/
+
+
+
+/** IPHONE 5 320x568 PORTRAIT**/
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait){
+
+	/* Mercados */
+	.box-mercado-clima-noticias .small-boxes-mercado p {
+		text-align: left;
+		font-size: 2.1rem;
+	}
+
+	.columna-indicadores p {
+		font-size: 1.1rem;
+		padding-left: 7px;
+	}
+
+/*CUBICACION BAÑADEROS*/
+
+.block-img-2 {
+   margin-left: 0;
+}
+
+.block-img {
+    padding: 0px;
+
+}
+
+
+
+/** FIN**/
+
+
+
+/** IPHONE 6 375x667 PORTRAIT**/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : portrait){
+
+	/* Noticias interior img*/
+	.container-inside-noticia img {
+		width: 80vw;
+		height: 25vh;
+	}
+
+}
+
+/** IPHONE 6 375x667 LANDSCAPE**/
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px)
+and (orientation : landscape){
+
+	header .home-box > div > div > img{
+		/*width: 24%;*/
+	}
+
+	header .home-box > div > div:nth-child(1){
+		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
+		/*padding: 2% 0%;*/
+	}
+
+	header .cont-menu-mob {
+		padding: 15px 40px;
+	}
+
+  .home-upper-box img:nth-child(1) {
+      width: 15%;
+  }
+
+  .home-upper-box img:nth-child(2) {
+    width:30%;
+}
+	/*header .home-upper-box img:nth-child(1) {
+		float: none;
+		width: 5em;
+	}*/
+
+	header .cont-section-mobile {
+		height: 80px!important;
+		/*width: 40vw!important;*/
+		display: block;
+	}
+
+	.ul-nav li {
+		padding-left: 0;
+
+		margin-left:0;
+		margin-bottom: 15px;
+	}
+
+	header #inner-header .home-upper-box {
+		padding: 0px 30px;
+	}
+
+	header .home-upper-box > div {
+		padding: 5px;
+	}
+
+}
+
+
+/** IPHONE 6  PLUS 414x736 PORTRAIT**/
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : portrait){
+
+	header .home-box > div > div:nth-child(1) {
+		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
+		/*padding: 2% 0%;*/
+	}
+
+}
+
+/** IPHONE 6  PLUS 414x736 LANDSCAPE**/
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px)
+and (orientation : landscape){
+
+	header .home-box > div > div:nth-child(1) {
+		box-shadow: 0 5px 10px -2px rgba(95,95,95,.5);
+		/*padding: 0% 0%;*/
+	}
+
+	header .home-box > div > div > img {
+		/*width: 40%;*/
+	}
+
+	.ul-nav li {
+		padding-left: 0;
+
+		margin-left:0;
+		margin-bottom: 15px;
+	}
+
+	header .cont-section-mobile {
+		height: 92px!important;
+		/*width: 40vw!important;*/
+		display: block;
+	}
+
+	/*header .home-upper-box img:nth-child(1) {
+		float: none;
+		width: 5.5em;
+	}*/
+
+	header .home-upper-box > div {
+		padding: 5px;
+	}
+
+	header #inner-header .home-upper-box {
+		padding: 0px 30px;
+	}
+
+	header .cont-menu-mob {
+		padding: 30px 30px;
+	}
+
+}
+
+
+@media only screen
+and (min-device-width: 360px)
+and (max-device-width: 640px)
+and (orientation: landscape)  {
+
+	header .home-box > div > div{
+		/*padding: 0% 0%!important;*/
+    width: 100%;
+	}
+
+	header .home-box > div > div > img {
+		/*width: 20%;*/
+	}
+
+	.cont-section-mobile {
+		height: 65px!important;
+		/*width: 40vw!important;*/
+		display: block;
+	}
+
+	.ul-nav li {
+		padding-left: 0;
+
+		margin-left:0;
+		margin-bottom: 15px;
+	}
+
+	.home-upper-box > div {
+		padding: 3px;
+	}
+
+	.cont-menu-mob {
+		padding: 15px 40px;
+	}
+
+	#inner-header .home-upper-box {
+		padding: 0px 30px;
+	}
+}
+
+/** FIN**/

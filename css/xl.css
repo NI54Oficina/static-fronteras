@@ -1,0 +1,45 @@
+@media screen and (min-width: 1500px){
+
+
+ 
+.col-xl-7 {
+	width: 14%;
+}
+
+.col-xl-5 {
+	width: 20%
+}
+
+.col-xl-10{
+	width: 83.33333333%;
+}
+
+.hidden-xl{
+	display: none;
+}
+
+.home-bottom-box p {
+	margin-top: 5%;
+}
+
+#ul-nav-principal {
+		padding-left:15px;
+	}
+
+
+/*******REMATES*******/
+.container-modalidad {
+    margin-left: 10px;
+	}
+
+
+
+
+	#inner-header{
+		height:2.5em !important;
+	}
+
+
+/*CIERRE DE LLLAVE*/
+}
+
