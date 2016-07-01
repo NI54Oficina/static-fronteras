@@ -1,4 +1,47 @@
-@media screen and (min-width: 1200px) and (max-width:1500px ){
+@media screen and (min-width: 1200px) {
+
+/*LAS QUE ESTABAN APLICADAS A xl*/
+
+
+.col-xl-7 {
+	width: 14%;
+}
+
+.col-xl-5 {
+	width: 20%
+}
+ads
+.col-xl-10{
+	width: 83.33333333%;
+}
+
+.hidden-xl{
+	display: none;
+}
+
+.home-bottom-box p {
+	margin-top: 5%;
+}
+
+#ul-nav-principal {
+		padding-left:15px;
+	}
+
+
+/*******REMATES*******/
+.container-modalidad {
+    margin-left: 10px;
+	}
+
+
+
+
+	#inner-header{
+		height:2.5em !important;
+	}
+
+
+/*FIN DE LAS QUE ESTABAN APLICADAS A XL*/
 
 
 .col-lg-2-5 {
@@ -40,5 +83,39 @@
 		height:2.5em !important;
 	}
 
-/*CIERRE DE LLLAVE*/
+
+/*HOME*/
+
+#home .home-box img{
+	width: 40%;
+}
+
+#home .home-upper-box img:nth-child(1) {
+    width: 20em;
+}
+
+#home .home-upper-box img:nth-child(2) {
+    width: 25em;
+}
+
+#home .home-bottom-box p {
+    font-size: 4em;
+	}
+
+	/*FIN HOME*/
+
+	/*PRODUCIR*/
+	.titulo-mobile > p {
+	    padding: 20px 20px;
+	    font-size: 3em;
+	}
+
+	.titulo-mobile {
+
+		z-index: 999999;
+	}
+
+	/*FIN PRODUCIR*/
+
+/*CIERRE DE LLLAVE GENERALES*/
 }

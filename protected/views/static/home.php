@@ -27,7 +27,7 @@ isHome=true;
 
  	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy">
 
- 		<div class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+ 		<div class="home-box col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xl-4 col-lan-xs-3">
 
 			<div class="hoy-box square">
 				<div hid="1">
@@ -40,7 +40,7 @@ isHome=true;
 
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes">
 
- 		<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+ 		<div  class="home-box col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xl-4 col-lan-xs-3">
  			<div class="estemes-box square ">
  				<div hid="1">
  					<img class="center-to-parent-d" src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-este-mes.svg" alt="Este Mes" />
@@ -54,7 +54,7 @@ isHome=true;
   	</a>
 
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir">
-		<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+		<div  class="home-box col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xl-4 col-lan-xs-3">
  			<div class="producir-box square">
  				<div hid="1">
  					<!-- <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-producir.png" alt="Chat" /> -->
@@ -67,7 +67,7 @@ isHome=true;
 	</a>
 
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda">
-		<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+		<div  class="home-box col-lg-6 col-md-6 col-sm-6 col-xs-6 col-xl-4 col-lan-xs-3">
  			<div class="ayuda-box square">
  				<div hid="1">
  					<img class="center-to-parent-d" src="<?php echo Yii::app()->request->baseUrl; ?>/img/icono-chat.svg" alt="Chat" />
