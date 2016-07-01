@@ -1,11 +1,11 @@
 <?php
 class PaisChecker extends CApplicationComponent
     {
-		
+
         public function PaisCheck()
         {
-		
-			$_SESSION["webRoot"]="fronteras/";
+
+			$_SESSION["webRoot"]="static-fronteras/";
 			$webRoot=$_SESSION["webRoot"];
 			$initUrl=$_SERVER['REQUEST_URI'];
 			/*Hardcodeo pais*/
@@ -19,9 +19,9 @@ class PaisChecker extends CApplicationComponent
 						header("Location: http://".$toGo);
 						exit();
 			}
-			
+
 			$initUrl=substr($initUrl,1);
-		
+
 			$currentUrl=str_replace($webRoot,"",$initUrl);
 			/*if(!ctype_lower($currentUrl)){
 				$currentUrl=strtolower($currentUrl);
@@ -30,17 +30,17 @@ class PaisChecker extends CApplicationComponent
 				header("Location: http://".$toGo);
 				exit();
 			}*/
-			
+
 			$firstArg="";
 			if(strlen($currentUrl)>1){
-			
+
 				if($currentUrl[0]=="/"){
 					$currentUrl=substr ($currentUrl,4);
 				}
-			
+
 				$endFirstArg= strpos ($currentUrl,"/");
 				if(!$endFirstArg){
-					$firstArg=$currentUrl;	
+					$firstArg=$currentUrl;
 				}else{
 					$firstArg= substr($currentUrl,0,$endFirstArg);
 				}
@@ -52,9 +52,9 @@ class PaisChecker extends CApplicationComponent
 					$_SESSION["pais"]= $currentPais->id;
 					$_SESSION["lng"]= $currentPais->lng;
 				}
-				
+
 			}else if($firstArg!="paises"){
-				
+
 				if( isset($_SESSION["pais"])){
 					$short= Pais::model()->findByPk($_SESSION["pais"])->short;
 					$toGo= $_SERVER['SERVER_NAME']."/".$webRoot.$short."/".$currentUrl;
@@ -65,18 +65,18 @@ class PaisChecker extends CApplicationComponent
 						//echo "entra session";
 						$_SESSION["redirectURL"]= $currentUrl;
 					}else{
-						
+
 					}
 					$toGo=$_SERVER['SERVER_NAME']."/".$webRoot."paises";
 					$toGo= str_replace("//","/",$toGo);
 					header("Location: http://".$toGo);
 				}
-				
+
 				exit();
 			}
-            
+
         }
-		
+
 		public function getBaseUrl(){
 			$short="";
 			if(isset($_SESSION["short"])){
@@ -96,7 +96,7 @@ class PaisChecker extends CApplicationComponent
 			}*/
 			//return $absolute ? $this->getHostInfo() . $this->_baseUrl : $this->_baseUrl;
 		}
-		
+
 		public function getSeccion($idSeccion){
 			$traduccion= SeccionRegionalizacion::model()->findByAttributes(array("idCategoria"=>$idSeccion,"pais"=>Yii::app()->session['pais']));
 			if($traduccion!=null){
@@ -105,7 +105,7 @@ class PaisChecker extends CApplicationComponent
 				return Seccion::model()->findByPk($idSeccion)->nombre;
 			}
 		}
-		
+
 		public function getTitles($idSeccion){
 			$traduccion= PpartesRegionalizacion::model()->findByAttributes(array("idParte"=>$idSeccion,"pais"=>Yii::app()->session['pais']));
 			if($traduccion!=null){

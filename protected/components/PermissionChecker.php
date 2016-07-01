@@ -1,28 +1,28 @@
 <?php
 class PermissionChecker extends CApplicationComponent
     {
-		public $webRoot="fronteras/";
-		public $webRootO="fronteras";
-		
+		public $webRoot="static-fronteras/";
+		public $webRootO="static-fronteras";
+
         public function PermissionCheck()
         {
 			//$auth=Yii::app()->authManager;
 			//$auth->assign('admin',10);
 			//$auth->revoke('admin',"Fran");
 			$access= $this->CheckUrl($_SERVER['REQUEST_URI']);
-			
-			
+
+
 			if(!$access){
 				header("Location: http://".$_SERVER['SERVER_NAME']."/".$this->webRoot."forbidden");
 				exit();
 			}
-			
+
         }
-		
+
 		public function CheckUrl($url){
-			
+
 			if(Yii::app()->user->checkAccess("fullAccess")){
-				
+
 				return true;
 			}
 			$partsUrl= explode("/",$url);
@@ -58,7 +58,7 @@ class PermissionChecker extends CApplicationComponent
 				$auxLike= $currentUrl;
 			}*/
 			//$auxLike=$currentUrl;
-			
+
            // $permissions= Permission::model()->findAllByAttributes(
 			//array('url'=>$currentUrl));
 			//echo $auxLike;
@@ -78,11 +78,11 @@ class PermissionChecker extends CApplicationComponent
 					break;
 				}
 			}
-			//echo "<br>";	
+			//echo "<br>";
 			//echo $access;
 			//exit();
 			return $access;
-			
+
 		}
     }
 ?>
