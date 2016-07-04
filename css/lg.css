@@ -117,5 +117,89 @@ ads
 
 	/*FIN PRODUCIR*/
 
+/*HOY*/
+.maxbox-noticias h4 {
+	margin-top: 0%;
+}
+
+
+.maxbox-noticias .container-noticias-sector > img {
+	width: 40%;
+}
+
+.img-noticias-hoy{
+  margin-top: 5%;
+}
+
+.maxboxes-inner {
+    padding: 150px 25px;
+}
+
+
+.maxbox-clima h4 {
+    font-size: 4em;
+
+}
+
+.box-mercado-clima-noticias .small-boxes-mercado > img {
+    width: 50%;
+}
+
+.maxbox-clima h3 {
+    font-size: 5em;
+}
+
+.maxbox-clima .small-boxes-mercado p:first-child {
+    font-size: 5em;
+}
+
+.clima-pronostico >.small-boxes-mercado p:nth-child(2) {
+    font-size: 3em;
+}
+
+.maxbox-ampliar > h5 {
+    font-size: 5em;
+
+}
+.maxbox-noticias h4 {
+    font-size: 5em;
+
+}
+
+.h3-merc {
+    font-size: 5em;
+}
+
+.maxbox-mercados p {
+    font-size: 4em;
+}
+
+
+/*FIN HOY*/
+
+/*SECCION NOTICIAS*/
+
+.box-noticias h1, .noticia-columna h1 {
+    font-size: 3em;
+}
+
+.container-texto-noticias h2 {
+    font-size: 4.5em;
+}
+
+.container-texto-noticias > p {
+    font-size: 3em;
+		min-height:450px;
+	}
+
+	.container-texto-noticias {
+	    padding: 20px 30px;
+	    margin-top: 20px;
+	}
+
+	.box-noticias .container-texto-noticias div p, .noticia-columna .container-texto-noticias div p {
+    padding-right: 15px;
+    font-size:3em;
+}
 /*CIERRE DE LLLAVE GENERALES*/
 }

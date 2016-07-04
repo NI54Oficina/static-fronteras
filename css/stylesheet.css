@@ -361,6 +361,10 @@ header .home-box:hover > .hoy-box {
 
 
 /*********************** HOY ********************/
+
+.img-noticias-hoy{
+  margin-top: 20%;
+}
 /* Tres cajas (mercados, clima. noticias del sector)*/
 .clima-title{
 	padding: 0;

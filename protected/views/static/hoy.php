@@ -3,7 +3,7 @@
 
 
 
-<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-hoy titulo-mobile"> <p> Hoy </p> </div>
+<div class="col-xs-12  hidden-sm hidden-md titulo-mobile-hoy titulo-mobile"> <p> Hoy </p> </div>
 
 	<?php include_once("cajas-hoy.php") ?>
 

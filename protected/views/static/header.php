@@ -255,7 +255,7 @@ function AdaptMenuContentApp(){
 
 					<!-- Header que se muestra solamente en SM , XS -->
 
-				<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12  hidden-md header-mobb hidden-sm">
+				<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-lg hidden-md header-mobb hidden-sm">
 
 						<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy">
 
