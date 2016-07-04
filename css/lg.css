@@ -280,6 +280,42 @@ padding: 10px;
 	font-size: 5em;
 }
 
+/*FIN CLIMA*/
+
+/*MERCADOS*/
+.container-items-mercados h3 {
+	 font-size: 5em !important;
+}
+
+.btn, .btn-indicadores{
+	font-size: 3em;
+	width: 260px;
+}
+
+
+.columna-indicadores p, .columna-ganado p, .columna-granos p{
+font-size: 2em;
+}
+
+.table-mercado-items div p, .box-mercado .table-mercado-items .moneda-mercados {
+	font-size: 1.7em;
+}
+
+/*FIN MERCADOS*/
+
+
+/*ESTE MES*/
+
+.container-noticias-sector {
+    margin-top: 15%;
+	}
+
+.maxboxes-inner-estemes h2{
+	font-size: 5em;
+}
+
+
+
 
 
 /*CIERRE DE LLLAVE GENERALES*/
