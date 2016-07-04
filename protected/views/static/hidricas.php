@@ -1,4 +1,4 @@
-<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-hoy titulo-mobile"> <p> Clima > Necesidades hídricas</p> </div>
+<div class="col-xs-12 hidden-sm hidden-md  titulo-mobile-hoy titulo-mobile"> <p> Clima > Necesidades hídricas</p> </div>
 
 <?php
 $dias=["Domingo","Lunes","Martes","Miércoles","Jueves","Viernes","Sábado"];
@@ -25,7 +25,7 @@ echo date("d",$f["created"]);
  ?> </h1>
 
 <!-- tres mapas -->
-<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lan-xs-6 map-lluvia ">
+<div class="col-lg-12 col-md-4 col-sm-12 col-xs-12 col-lan-xs-6 map-lluvia ">
 
 	<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-clima" >
 
@@ -54,7 +54,7 @@ echo date("d",$f["created"]);
 
 </div>
 
-<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lan-xs-6  map-lluvia ">
+<div class="col-lg-12 col-md-4 col-sm-12 col-xs-12 col-lan-xs-6  map-lluvia ">
 
 	<div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-clima" >
 
@@ -83,7 +83,7 @@ echo date("d",$f["created"]);
 
 </div>
 
-<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 col-lan-xs-6  map-lluvia ">
+<div class="col-lg-12 col-md-4 col-sm-12 col-xs-12 col-lan-xs-6  map-lluvia ">
 
 <div  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mapa-clima" >
 

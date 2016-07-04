@@ -220,6 +220,65 @@ ads
 
     font-size: 5em;
 }
+/*FIN SECCION NOTICIAS*/
+
+/*SECCION clima*/
+.box-clima-title{
+	height: auto !important;
+}
+
+.box-clima select {
+    font-size: 2em;
+}
+.box-clima .fecha-descripcion, #lluvias-temperaturas-h1 {
+
+    font-size:4em;
+	}
+
+	.box-clima .small-boxes-mercado > img {
+	    width: 50%;
+	}
+
+	.clima-datos, .box-clima > div:nth-child(2) .small-boxes-mercado p:nth-child(4), .mapa-clima h3, .form-clima-mapa p{
+    font-size: 2em;
+	}
+
+	.box-clima h4 {
+	    font-size: 3.5em;
+	}
+
+	.box-clima .info-clima > p {
+    font-size: 2.5em;
+}
+
+.box-clima .inner-data, .small-boxes-mercado {
+    padding:40px;
+}
+
+.box-clima .box-clima-inner {
+    padding: 40px 30px;
+
+}
+
+.btn-mapas {
+	width: 100%;
+}
+
+#lluvias-temperaturas-h1 {
+	width: 300px;
+}
+
+.mapa-clima h3 {
+padding: 10px;
+}
+
+.p-button-clima{
+	font-size: 2em;
+}
+
+.title-lluvia{
+	font-size: 5em;
+}
 
 
 
