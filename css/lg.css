@@ -201,5 +201,27 @@ ads
     padding-right: 15px;
     font-size:3em;
 }
+
+/*SECCION NOTICIAS INTERIOR*/
+
+ .container-inside-noticia h1{
+	 font-size: 5em;
+ }
+
+ .container-inside-noticia .bajada {
+    font-size: 3em;
+	}
+
+	.container-inside-noticia .fuente , .container-inside-noticia .cuerpo p, .container-inside-noticia .categoria, .container-inside-noticia .fecha-not-inner{
+    font-size: 2em;
+}
+
+.container-inside-noticia .cuerpo h2 {
+
+    font-size: 5em;
+}
+
+
+
 /*CIERRE DE LLLAVE GENERALES*/
 }
