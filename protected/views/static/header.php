@@ -5,9 +5,9 @@ $("body").on("tap",".navbar-toggle2",function(){
 		return;
 	}
 	$(".navbar-toggle").click();
-	if(isMobile){
+
 		AdaptMenuContent();
-	}
+
 });
 $("body").on("mousedown",".navbar-toggle",function(){
 
@@ -28,6 +28,10 @@ function AdaptMenuContent(){
 			if($("#inner-header").hasClass("in")){
 
 				$("#back-header2").css("display","none");
+				// test-1
+				$("header .home-upper-box").show();
+				$("header .home-upper-box > div ").show();
+				// test-1
 				$(".icon-logout").css("display","block");
 				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
 
@@ -50,6 +54,10 @@ function AdaptMenuContent(){
 
 				$("header .glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
 				$("#back-header2").css("display","block");
+				// test-1
+				$("header .home-upper-box").hide();
+				$("header .home-upper-box > div ").hide();
+				// test-1
 				$(".icon-logout").css("display","none");
 				$("header").css("position","fixed");
 				$("#inner-header").css("position","static");
@@ -113,7 +121,7 @@ function AdaptMenuContentApp(){
 </script>
 <header class="headerDesktop" >
 
-	<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs header-logos">
+	<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs hidden-lg header-logos">
 
 		<!--Logo fronteras -->
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -133,13 +141,13 @@ function AdaptMenuContentApp(){
 
 
 
-	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xs boton-volver-header hidden-lg hidden-md hidden-sm"  style="height:100%;">
+	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xs boton-volver-header hidden-md hidden-sm"  style="height:100%;">
 
 	 <button class="boton-header"  id="back-header2" style="display:inline-block;overflow:hidden;" type="button"></button>
 	 <i class="demo-icon icon-logout" style="font-size:1.5em;color:white;"></i>
 	  	</div>
 
-<span  class="hidden-lg hidden-sm hidden-md glyphicon glyphicon-th-large navbar-toggle2 collapsed" ></span>
+<span  class=" hidden-sm hidden-md glyphicon glyphicon-th-large navbar-toggle2 collapsed" ></span>
 
 <span  class="navbar-toggle" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" style="position:absolute;"></span>
 
@@ -151,7 +159,7 @@ function AdaptMenuContentApp(){
 
 
 
-		<ul class="ul-nav col-lg-12 col-md-12 col-sm-11 col-xs-9" id="ul-nav-principal">
+		<ul class="ul-nav col-lg-12 col-md-12 col-sm-11 col-xs-9" id="ul-nav-principal collapse">
 
 
 			<div class="home-upper-box col-lg-12 col-md-12 col-sm-12 col-xs-12 col-xl-12">
@@ -164,7 +172,8 @@ function AdaptMenuContentApp(){
 
 
 						<!-- Header que se muestra solamente en pc - XL - MD -->
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-menu-mob hidden-xs">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-menu-mob hidden-xs hidden-lg">
+
 
 						<!-- BOTON VOLVER -->
 						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs boton-volver-header" style="margin-top:.3%">
@@ -255,11 +264,11 @@ function AdaptMenuContentApp(){
 
 					<!-- Header que se muestra solamente en SM , XS -->
 
-				<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-lg hidden-md header-mobb hidden-sm">
+				<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12  hidden-md header-mobb hidden-sm">
 
 						<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy">
 
-							<div class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+							<div class="home-box col-lg-6 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
 
 							<div class="hoy-box square"  >
@@ -276,7 +285,7 @@ function AdaptMenuContentApp(){
 
 					<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes">
 
-							<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+							<div  class="home-box col-lg-6 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
 								<div class="estemes-box square">
 									<div hid="18">
@@ -289,7 +298,7 @@ function AdaptMenuContentApp(){
 					</a>
 
 					<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir">
-						<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+						<div  class="home-box col-lg-6 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
 								<div class="producir-box square" >
 									<div hid="18">
@@ -304,7 +313,7 @@ function AdaptMenuContentApp(){
 					</a>
 
 					<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda">
-						<div  class="home-box col-lg-3 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+						<div  class="home-box col-lg-6 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
 							<div class="ayuda-box square" >
 								<div hid="18">

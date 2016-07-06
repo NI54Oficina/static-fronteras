@@ -86,7 +86,7 @@ ads
 
 /*HOME*/
 
-#home .home-box img{
+.home-box img{
 	width: 40%;
 }
 
@@ -98,7 +98,7 @@ ads
     width: 25em;
 }
 
-#home .home-bottom-box p {
+.home-bottom-box p {
     font-size: 4em;
 	}
 
@@ -112,7 +112,7 @@ ads
 
 	.titulo-mobile {
 
-		z-index: 999999;
+		z-index: 1;
 	}
 
 	/*FIN PRODUCIR*/
@@ -473,10 +473,59 @@ font-size: 2em;
 /*FIN RECOMENDACIONES*/
 
 
+/*HEADER*/
+.navbar-toggle2 {
+	position: absolute;
+    right: 0!important;
+		z-index: 2;
+		font-size: 50px;
+}
 
+#inner-header {
+    background-color: transparent;
+}
+#back-header2{
+	margin-top: 5%;
+    width: 60px;
+    height: 60px;
+	}
 
+header	.home-upper-box {
+	    padding: 30px 40px;
+			margin-top: 50px;
+	}
 
+header .home-upper-box img:nth-child(1) {
+    width: 20em;
+}
 
+header .home-upper-box img:nth-child(2) {
+    width: 35em;
+}
+
+/*FIN HEADER*/
+
+/*SPLASH HOME*/
+
+.img-1-splash > img {
+    width: 25em;
+}
+
+.img-2-splash > img {
+    width: 20em;
+}
+
+#bg-square-2 {
+    background-image: url(../img/cuadrado-botonera.png);
+    min-height: 5px;
+    background-size: auto;
+    display: block;
+    width: 93vw;
+    margin-left: 2.5vw;
+    margin-bottom: 10px;
+}
+
+/*FIN SPLASH HOME*/
 
 
 
