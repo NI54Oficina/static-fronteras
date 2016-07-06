@@ -9,10 +9,10 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section" id="ganado">
 <?php foreach($ganado as $g){ ?>
 
-	<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p style="text-transform:capitalize;"> <?php echo $g["raza"]; ?></p> </div>
+	<div class="col-xs-12 hidden-sm hidden-md  titulo-mobile-producir titulo-mobile"> <p style="text-transform:capitalize;"> <?php echo $g["raza"]; ?></p> </div>
 <?php } ?>
 
-<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs">
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs hidden-lg">
 	<div class="box-manejo border-shadow">
 		<div class="box-manejo-inner ">
 			<p class="center-to-parent color-manejo planes-h1">Tabla estado Corporal</p>
@@ -25,7 +25,7 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 
 
 
-<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 hidden-lg   dot-nav-slider">
+<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12   dot-nav-slider">
 	<ul>
 		<li class="nav-dots">
 			<?php foreach($ganado as $g){ ?>
@@ -37,7 +37,7 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 </div>
 
 
-<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm container-boton-ganado center-to-parent"  hid="1">
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm hidden-lg container-boton-ganado center-to-parent"  hid="1">
 	<button class="boton-ganado preview-ganado" id="prev" ></button>
 </div>
 
@@ -45,24 +45,24 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
       <!-- Tipo de vaca 1 -->
 	<?php foreach($ganado as $g){ ?>
 
-<div  class="col-lg-10 col-md-10 col-sm-12 col-xs-12 general-container-producir " hid="1" id="vaca-tipo-1">
+<div  class="col-lg-12 col-md-10 col-sm-12 col-xs-12 general-container-producir " hid="1" id="vaca-tipo-1">
 
 
 
-	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-1 ">
+	<div class="col-lg-12 col-md-6 col-sm-12 col-xs-12 ganado-col-1 ">
 
 
 
 		<img class="img-ganado borde-<?php echo $g["raza"]; ?> " src="<?php echo Yii::app()->request->baseUrl; ?>/img/estado-corporal/<?php echo $g["raza"]; ?>-<?php echo $g["indice"]; ?>.png">
 	</div>
 
-	<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
+	<div class="col-lg-12 col-md-6 col-sm-12 col-xs-12 ganado-col-2">
 
 		<div class="contenedor-botones-mobile col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<button class=" hidden-lg hidden-md boton-ganado-mobile-1  boton-ganado preview-ganado" id="prev" ></button>
+				<button class="  hidden-md boton-ganado-mobile-1  boton-ganado preview-ganado" id="prev" ></button>
 	<h1 class="color-<?php echo $g["raza"]; ?>"><?php echo $g["estado"]; ?></h1>
 
-				<button class=" hidden-lg hidden-md boton-ganado-mobile-2 boton-ganado next-ganado" id="next"></button>
+				<button class="  hidden-md boton-ganado-mobile-2 boton-ganado next-ganado" id="next"></button>
 
 		</div>
 

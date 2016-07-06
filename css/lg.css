@@ -435,6 +435,23 @@ font-size: 2em;
 	font-size: 2em;
 }
 
+/*GANADO*/
+
+.ganado-col-2 h1 {
+    font-size: 5em;
+		text-align: center;
+		margin: 30px 0px;
+}
+
+.boton-ganado {
+    margin-top: 50px;
+	}
+
+	.nav-dots .nav-dot {
+    width: 20px;
+    height: 20px;
+	}
+
 /*FIN ESTADO CORPORAL*/
 
 
