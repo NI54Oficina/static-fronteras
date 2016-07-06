@@ -316,6 +316,17 @@ font-size: 2em;
 
 
 
+/*FIN ESTE MES*/
+
+/*SANIDAD*/
+
+.square > img {
+     max-width:none;
+}
+
+.box-producir-2 p {
+    font-size: 4em;
+
 
 
 /*CIERRE DE LLLAVE GENERALES*/
