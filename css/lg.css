@@ -483,6 +483,7 @@ font-size: 2em;
 
 #inner-header {
     background-color: transparent;
+		  /*background: radial-gradient(circle,white,#f4dfd1);*/
 }
 #back-header2{
 	margin-top: 5%;
@@ -492,7 +493,7 @@ font-size: 2em;
 
 header	.home-upper-box {
 	    padding: 30px 40px;
-			margin-top: 50px;
+			padding-top: 50px;
 	}
 
 header .home-upper-box img:nth-child(1) {
@@ -503,6 +504,9 @@ header .home-upper-box img:nth-child(2) {
     width: 35em;
 }
 
+.header-palabras-menu {
+    /*background: radial-gradient(circle,white,#f4dfd1);*/
+}
 /*FIN HEADER*/
 
 /*SPLASH HOME*/

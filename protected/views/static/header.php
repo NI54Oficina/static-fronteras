@@ -121,6 +121,8 @@ function AdaptMenuContentApp(){
 }
 
 </script>
+
+
 <header class="headerDesktop" >
 
 	<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs hidden-lg header-logos">
@@ -178,7 +180,7 @@ function AdaptMenuContentApp(){
 
 
 						<!-- BOTON VOLVER -->
-						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs boton-volver-header" style="margin-top:.3%">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-lg hidden-xs boton-volver-header" style="margin-top:.3%">
 							<button class="boton-header  col-lg-1 col-md-1 col-sm-1 col-xs-1"  id="back-header" style="" type="button"></button><p class="back-p col-lg-1 col-md-1 col-sm-1 col-xs-1 center-to-parent" style="" >Volver</p>
 						</div>
 
