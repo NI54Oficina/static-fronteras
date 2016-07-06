@@ -412,6 +412,7 @@ font-size: 2em;
 
 /*FIN LABORATORIO DE DIAGNOSTICO*/
 
+/*PROTOCOLO DE REPRODUCCION	*/
 
 .b-prot-at {
     top: .9% !important;
@@ -421,6 +422,33 @@ font-size: 2em;
 .b-prot-ad {
     top: 7% !important;
 }
+
+ /*FIN PROTOCOLO DE REPRODUCCION*/
+
+ /*ESTADO CORPORAL*/
+
+.p-estado-2{
+	font-size: 5em;
+}
+
+.p-estado-1{
+	font-size: 2em;
+}
+
+/*FIN ESTADO CORPORAL*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
