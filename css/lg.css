@@ -376,6 +376,45 @@ font-size: 2em;
 }*/
 
 /*FIN ENFERMEDADES*/
+/*PLANES SANITARIOS*/
+
+
+.planes-box p {
+
+    font-size: 5em;
+  width: auto;
+}
+
+/*FIN PLANES SANITARIOS*/
+
+/*RETIRO PRODUCTOS - SLIDER DE PRODUCTOS DE REMATES EN VARIOS LADOS*/
+.title-remates {
+    height: 70px;
+}
+
+#retiro-producto-p-1, #retiro-producto-p-2, #retiro-producto-p-3 {
+    font-size: 2em;
+}
+
+.glyphicon {
+	color: white;
+}
+
+/*FIN RETIRO PRODUCTOS*/
+
+
+/*LABORATORIOS DE DIAGNOSTICO*/
+
+.lab-box p{
+	font-size: 3em;
+}
+
+
+/*FIN LABORATORIO DE DIAGNOSTICO*/
+
+
+
+
 
 /*CIERRE DE LLLAVE GENERALES*/
 }

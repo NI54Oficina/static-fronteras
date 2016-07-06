@@ -1,4 +1,4 @@
-<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p>Sanidad > Retiro de productos veterinarios</p> </div>
+<div class="col-xs-12  hidden-sm hidden-md titulo-mobile-producir titulo-mobile"> <p>Sanidad > Retiro de productos veterinarios</p> </div>
 
 <?php
 
@@ -9,7 +9,7 @@ $retiros= Retiro::model()->findAll();
  <section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
 
-<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs" >
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs hidden-lg" >
 	<div class="box-sanidad border-shadow">
 		<div class="box-sanidad-inner ">
 
@@ -31,7 +31,7 @@ $retiros= Retiro::model()->findAll();
 
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-container-producir">
 	<!-- Caja general -->
-	<div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 
 
@@ -39,7 +39,7 @@ $retiros= Retiro::model()->findAll();
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 
-			<div class="hidden-lg cont-fecha-mobile color-retiro-productos">
+			<div class=" cont-fecha-mobile color-retiro-productos">
 			<button class="boton-prueba-atras boton-prueba-retiro"> <span class="glyphicon glyphicon-triangle-left"></span> </button>
 			<p class="fecha-remates-mobile">
 			  Argentina
@@ -49,11 +49,11 @@ $retiros= Retiro::model()->findAll();
 
 
 			<!-- Titulo -->
-			<div class="title-remates color-retiro-productos hidden-xs hidden-sm hidden-md"> <h2></h2></div>
+			<div class="title-remates color-retiro-productos hidden-xs hidden-sm hidden-md hidden-lg"> <h2></h2></div>
 
 			<!-- Caja país particular -->
 
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square container-fecha-remates color-retiro-productos hidden-xs  hidden-sm hidden-md">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square container-fecha-remates color-retiro-productos hidden-xs  hidden-sm hidden-md hidden-lg">
 
 				<div class=" center-to-parent ">
 					<p>Argentina</p>
@@ -71,11 +71,11 @@ $retiros= Retiro::model()->findAll();
 
 
 		<!-- Caja general: img producto, prodcutos senasa, nombre comercial, retiro en carne,  retiro en leche -->
-		<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 fade-in-mobile">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fade-in-mobile">
 
 			<!-- Img producto-->
 
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2></h2></div>
@@ -99,7 +99,7 @@ $retiros= Retiro::model()->findAll();
 
 			<!-- Producto Senasa-->
 
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2>Producto Senasa</h2></div>
@@ -118,7 +118,7 @@ $retiros= Retiro::model()->findAll();
 
 			<!-- Nombre Comercial Reg -->
 
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2>Nombre Comercial Reg</h2></div>
@@ -136,7 +136,7 @@ $retiros= Retiro::model()->findAll();
 
 
 			<!-- Retiro en carne -->
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2> Retiro en carne</h2></div>
@@ -154,7 +154,7 @@ $retiros= Retiro::model()->findAll();
 
 			<!-- Retiro en leche -->
 
-			<div class="col-lg-2-5 col-md-2-5 col-sm-2-5 col-xs-12 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-12 col-md-2-5 col-sm-2-5 col-xs-12  remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2> Retiro en leche</h2></div>
