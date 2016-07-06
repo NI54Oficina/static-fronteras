@@ -348,6 +348,20 @@ font-size: 2em;
 }
 /*FIN RED VETERINARIA*/
 
+/*BIENESTAR ANIMAL*/
+
+.title-producir-inside {
+    font-size:4em;
+}
+
+.general-container-producir p, .general-container-producir ul {
+    font-size:2em;
+}
+
+.general-container-producir h2 {
+    font-size:3em;
+}
+ /*FIN BIENESTAR ANIMAL*/
 
 /*CIERRE DE LLLAVE GENERALES*/
 }

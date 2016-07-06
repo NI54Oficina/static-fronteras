@@ -1,8 +1,8 @@
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section" id="cubicacion-banaderos">
 
-<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p> Manejo > Bienestar Animal </p> </div>
+<div class="col-xs-12 hidden-sm hidden-md titulo-mobile-producir titulo-mobile"> <p> Manejo > Bienestar Animal </p> </div>
 
-<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs">
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs hidden-lg">
 	<div class="box-manejo border-shadow">
 		<div class="box-manejo-inner ">
 			<p class="center-to-parent color-manejo planes-h1">Bienestar animal</p>
