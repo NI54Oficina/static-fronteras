@@ -363,5 +363,19 @@ font-size: 2em;
 }
  /*FIN BIENESTAR ANIMAL*/
 
+
+ /*ENFERMEDADES*/
+
+ .enfermedades-box p, #enfermedades-more{
+    font-size: 5em;
+}
+
+/*.planes:hover .planes-box {
+    zoom: 1;
+    margin-top: -8vh;
+}*/
+
+/*FIN ENFERMEDADES*/
+
 /*CIERRE DE LLLAVE GENERALES*/
 }
