@@ -19,14 +19,14 @@ $remates= Remates::model()->findAll($Criteria);
 
 
 <!-- REMATES CABAÑAS-->
-<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-estemes titulo-mobile"> <p> Este mes > Remates Cabañas </p> </div>
+<div class="col-xs-12 hidden-sm hidden-md titulo-mobile-estemes titulo-mobile"> <p> Este mes > Remates Cabañas </p> </div>
 
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section remates">
 
-<h1 class="hidden-xs hidden-md hidden-sm">Remates cabañas</h1>
+<h1 class="hidden-xs hidden-md hidden-sm hidden-lg ">Remates cabañas</h1>
 
 	<!-- Caja general -->
-	<div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 
 
@@ -34,7 +34,7 @@ $remates= Remates::model()->findAll($Criteria);
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 
-			<p class="hidden-lg fecha-remates-mobile color-cabanias">
+			<p class=" fecha-remates-mobile color-cabanias">
 			<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span></button>
 			<span>Miercoles 18 Mayo del 2016</span>
 			<button class="boton-prueba"><span class="glyphicon glyphicon-triangle-right"></span></button></p>
@@ -42,11 +42,11 @@ $remates= Remates::model()->findAll($Criteria);
 
 
 			<!-- Titulo FECHA -->
-			<div class="title-remates color-cabanias hidden-xs hidden-sm hidden-md"> <h2 class="center-to-parent">Fecha</h2></div>
+			<div class="title-remates color-cabanias hidden-xs hidden-sm hidden-md hidden-lg "> <h2 class="center-to-parent">Fecha</h2></div>
 
 			<!-- Caja fecha particular -->
 
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square container-fecha-remates color-cabanias hidden-xs hidden-sm hidden-md">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 square container-fecha-remates color-cabanias hidden-lg hidden-xs hidden-sm hidden-md">
 
 				<div class=" center-to-parent ">
 
@@ -67,11 +67,11 @@ $remates= Remates::model()->findAll($Criteria);
 
 
 		<!-- Caja general: modalidad, consignatorio, lugar, provincia, cabezas -->
-		<div class="col-lg-10 col-md-12 col-sm-12 col-xs-12 fade-in-mobile">
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fade-in-mobile">
 
 			<!-- Modalidad -->
 
-			<div class="col-lg-2-5 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-cabanias"><h2 class="center-to-parent">Modalidad</h2></div>
@@ -87,7 +87,7 @@ $remates= Remates::model()->findAll($Criteria);
 
 			<!-- Consignatorio-->
 
-			<div class="col-lg-2-5 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-cabanias"><h2 class="center-to-parent">Consignatario</h2></div>
@@ -102,7 +102,7 @@ $remates= Remates::model()->findAll($Criteria);
 
 			<!-- Lugar-->
 
-			<div class="col-lg-2-5 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-cabanias"><h2 class="center-to-parent">Lugar</h2></div>
@@ -117,7 +117,7 @@ $remates= Remates::model()->findAll($Criteria);
 
 
 			<!-- Provincia -->
-			<div class="col-lg-2-5 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-cabanias"><h2 class="center-to-parent">Provincia</h2></div>
@@ -131,7 +131,7 @@ $remates= Remates::model()->findAll($Criteria);
 
 			<!-- Cabezas-->
 
-			<div class="col-lg-2-5 col-md-12 col-sm-12 col-xs-12 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-cabanias"><h2 class="center-to-parent">Cabezas</h2></div>

@@ -80,7 +80,6 @@ function AdaptMenuContent(){
 					AdaptSquare();
 
 					$(".header-mobb").css("opacity",0);
-					$(".header-mobb").css("z-index","-99");
 					$(".fadder").css("opacity",1); $("section").css("opacity",1);
 					menuReady=true;
 				},500);
