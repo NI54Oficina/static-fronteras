@@ -1,8 +1,8 @@
 <section id="contenedor" class=" veterinaria col-xl-10 col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
-<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p> Producir + > Red veterinaria </p> </div>
+<div class="col-xs-12  hidden-sm hidden-md  titulo-mobile-producir titulo-mobile"> <p> Producir + > Red veterinaria </p> </div>
 
-	<div class="map-box  col-lg-6 col-md-6 col-sm-6 col-xs-12  hidden-xs ">
+	<div class="map-box  col-lg-12 col-md-6 col-sm-6 col-xs-12 hidden-xs  hidden-lg ">
 
    <!-- IFRAME DE MAPA, SETEAR LA LOCACION CORRECTA -->
 	<!-- <iframe class="square col-lg-12 col-md-12 col-sm-12 col-xs-12 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.096023338846!2d-58.72043858429925!3d-34.42431595553572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca1f2712699bd%3A0x3985a0fecc05b5c6!2zQmlvZ8OpbmVzaXMgQmFnw7MgU0E!5e0!3m2!1ses!2sar!4v1461785162869"  frameborder="1" >-->
@@ -12,9 +12,9 @@
 	</div>
 
 
-	<div class="red-box col-lg-6 col-md-6 col-sm-6 col-xs-12">
+	<div class="red-box col-lg-12 col-md-6 col-sm-6 col-xs-12">
 
-		    <img class="col-lg-4 col-md-4 col-sm-6 col-xs-12 hidden-xs " src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-veterinarias.svg" alt="Red Veterinaria">
+		    <img class="col-lg-4 col-md-4 col-sm-6 col-xs-12 hidden-xs hidden-lg" src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-veterinarias.svg" alt="Red Veterinaria">
 
 
 		  <div class="red-form col-lg-12 col-md-12 col-sm-12 col-xs-12">
@@ -68,11 +68,11 @@
 
 	</div>
 
-	<div class="map-box  col-lg-6 col-md-6 col-sm-6 col-xs-12  hidden-lg hidden-sm hidden-md ">
+	<div class="map-box  col-lg-12 col-md-6 col-sm-6 col-xs-12   hidden-sm hidden-md ">
 
    <!-- IFRAME DE MAPA, SETEAR LA LOCACION CORRECTA -->
 	<!-- <iframe class="square col-lg-12 col-md-12 col-sm-12 col-xs-12 " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3291.096023338846!2d-58.72043858429925!3d-34.42431595553572!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bca1f2712699bd%3A0x3985a0fecc05b5c6!2zQmlvZ8OpbmVzaXMgQmFnw7MgU0E!5e0!3m2!1ses!2sar!4v1461785162869"  frameborder="1" >-->
-		<img src="<?php echo Yii::app()->request->baseUrl; ?>/img/veterinarias-mapa.svg" alt="Mapa Argentina" />
+		<img class="img-static-vet" src="<?php echo Yii::app()->request->baseUrl; ?>/img/veterinarias-mapa.svg" alt="Mapa Argentina" />
 	 </iframe>
 
 	</div>

@@ -318,15 +318,35 @@ font-size: 2em;
 
 /*FIN ESTE MES*/
 
-/*SANIDAD*/
+/*SANIDAD & GENETICA & MANEJO*/
 
 .square > img {
      max-width:none;
 }
 
-.box-producir-2 p {
+.box-producir-2 p, .name-genetica  {
     font-size: 4em;
+}
 
+
+/*FIN SANIDAD & MANEJO & GENETICA*/
+
+
+/*RED VETERINARIA*/
+
+
+.red-form > div > form > select {
+    font-size: 4em;
+}
+
+.map-box {
+    box-shadow: none;
+}
+
+.img-static-vet{
+	width: 70%;
+}
+/*FIN RED VETERINARIA*/
 
 
 /*CIERRE DE LLLAVE GENERALES*/
