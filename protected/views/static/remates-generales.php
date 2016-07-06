@@ -47,9 +47,9 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section remates">
 
-<div class="col-xs-12 hidden-lg hidden-xl titulo-mobile-estemes titulo-mobile"> <p> Este mes > Remates Generales </p> </div>
+<div class="col-xs-12   titulo-mobile-estemes titulo-mobile"> <p> Este mes > Remates Generales </p> </div>
 
-<h1 class="hidden-xs hidden-md hidden-sm">Remates generales</h1>
+<h1 class="hidden-xs hidden-lg hidden-md hidden-sm">Remates generales</h1>
 
 
 
@@ -57,7 +57,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 fade-in-mobile">
 
 			<!-- Caja general -->
-			<div class="col-lg-2 col-md-12 col-sm-12 col-xs-12">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 
 
 
@@ -66,9 +66,9 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 					<!-- fECHA EN MOBILE -->
 					<?php if(false){ ?>
-					<div class="mes-remates hidden-lg hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
+					<div class="mes-remates hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
 
-					<div class="hidden-lg cont-fecha-mobile color-generales">
+					<div class="cont-fecha-mobile color-generales">
 					<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
 					<p class="fecha-remates-mobile date-remate ">
 							Miercoles 18
@@ -80,10 +80,10 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 					<!-- Titulo FECHA -->
 					<?php if(false){ ?>
-					<div class="title-remates color-generales hidden-xs hidden-sm hidden-md"> <h2 class="center-to-parent">Fecha</h2></div>
-					<div class="mes-remates hidden-xs" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
+					<div class="title-remates color-generales hidden-xs hidden-lg hidden-sm hidden-md"> <h2 class="center-to-parent">Fecha</h2></div>
+					<div class="mes-remates hidden-xs hidden-lg" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
 					<?php } ?>
-					<div class="title-remates color-generales hidden-xs hidden-sm hidden-md col-lg-12 col-md-12"> <h2 class="center-to-parent">Fecha</h2></div>
+					<div class="title-remates color-generales hidden-xs hidden-lg hidden-sm hidden-md col-lg-12 col-md-12"> <h2 class="center-to-parent">Fecha</h2></div>
 					<!-- Caja fecha particular -->
 
 					<?php
@@ -93,19 +93,19 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 						CheckFecha($remate,$auxLastFecha,$newDate);
 						if(!$newDate){
 							?>
-							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm' hid='1' ></div>
+							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg' hid='1' ></div>
 							<?php
 						}else{
 							?>
-							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm separator-table' ></div>
-							<div class="mes-remates hidden-xs col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
+							<div class='col-lg-12 col-md-12 hidden-xs hidden-lg hidden-sm separator-table' ></div>
+							<div class="mes-remates hidden-xs hidden-lg  col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
 							<?php if(false){ ?>
-							<div class="mes-remates hidden-lg hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
+							<div class="mes-remates hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
 							<?php } ?>
 
 							<div class="info-remates-mobile">
-							<div class="mes-remates hidden-lg hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))-1]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
-							<div class="hidden-lg cont-fecha-mobile color-generales ">
+							<div class="mes-remates  hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))-1]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
+							<div class="cont-fecha-mobile color-generales ">
 							<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
 							<p class="fecha-remates-mobile date-remate ">
 									<?php echo $dias[date("w",strtotime($remate->fecha))]; ?> <?php echo date("d",strtotime($remate->fecha)); ?>
@@ -118,7 +118,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 					?>
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-celda" <?php if(!$newDate){ ?> style="display:none;" <?php } ?>>
 
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-fecha-remates color-generales hidden-xs hidden-md hidden-sm" hid="1" >
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-fecha-remates color-generales hidden-lg hidden-xs hidden-md hidden-sm" hid="1" >
 
 						<div class=" center-to-parent" >
 
@@ -134,7 +134,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 					<?php
 						if($newDate){
 							?>
-							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm' hid='1' ></div>
+							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg' hid='1' ></div>
 							<?php
 						}
 					} ?>
@@ -146,7 +146,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 			<!-- Modalidad -->
 
-			<div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Modalidad</h2></div>
@@ -157,8 +157,8 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				foreach($remates as $remate){
 					CheckFecha($remate,$auxLastFecha,$newDate);
 					if($newDate){
-						?><div class='col-lg-12 col-md-12 hidden-xs hidden-sm separator-table' ></div>
-						<div class="mes-remates hidden-xs col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
+						?><div class='col-lg-12 col-md-12 hidden-xs hidden-lg hidden-sm separator-table' ></div>
+						<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
 						<?php
 					}
 					?>
@@ -174,7 +174,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 			<!-- Consignatorio-->
 
-			<div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Consignatario</h2></div>
@@ -185,8 +185,8 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				foreach($remates as $remate){
 				CheckFecha($remate,$auxLastFecha,$newDate);
 				if($newDate){
-					?><div class='col-lg-12 col-md-12 hidden-xs hidden-sm separator-table' ></div>
-					<div class="mes-remates hidden-xs col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
+					?><div class='col-lg-12 col-md-12 hidden-lg hidden-xs hidden-sm separator-table' ></div>
+					<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
 					<?php
 				}
 				?>
@@ -201,7 +201,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 			<!-- Lugar-->
 
-			<div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Lugar</h2></div>
@@ -213,8 +213,8 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				CheckFecha($remate,$auxLastFecha,$newDate);
 				if($newDate){
 					?>
-					<div class='col-lg-12 col-md-12 hidden-xs hidden-sm separator-table' ></div>
-					<div class="mes-remates hidden-xs col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
+					<div class='col-lg-12 col-md-12 hidden-lg hidden-xs hidden-sm separator-table' ></div>
+					<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
 					<?php
 				}
 				?>
@@ -227,7 +227,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 
 			<!-- Provincia -->
-			<div class="col-lg-2 col-md-6 col-sm-6 col-xs-6 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Provincia</h2></div>
@@ -239,8 +239,8 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				CheckFecha($remate,$auxLastFecha,$newDate);
 				if($newDate){
 					?>
-					<div class='col-lg-12 col-md-12 hidden-xs hidden-sm separator-table' ></div>
-					<div class="mes-remates hidden-xs col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"></h2></div>
+					<div class='col-lg-12 col-md-12 hidden-lg hidden-xs hidden-sm separator-table' ></div>
+					<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"></h2></div>
 					<?php
 				}
 				?>
@@ -252,7 +252,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 			<!-- Cabezas-->
 
-			<div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 col-xl-5 remates-box containerColumnas">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Cabezas</h2></div>
@@ -263,8 +263,8 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				foreach($remates as $remate){
 				CheckFecha($remate,$auxLastFecha,$newDate);
 				if($newDate){
-					?><div class='col-lg-12 col-md-12 hidden-xs hidden-sm separator-table' ></div>
-					<div class="mes-remates hidden-xs col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"></h2></div>
+					?><div class='col-lg-12 col-md-12 hidden-lg hidden-xs hidden-sm separator-table' ></div>
+					<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"></h2></div>
 					<?php
 				}
 				?>

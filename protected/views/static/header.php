@@ -28,9 +28,9 @@ function AdaptMenuContent(){
 			if($("#inner-header").hasClass("in")){
 
 				$("#back-header2").css("display","none");
-				// test-1
-				$("header .home-upper-box").show();
-				$("header .home-upper-box > div ").show();
+				// // test-1
+				// $("header .home-upper-box").css("display","none");
+				// $("header .home-upper-box > div ").css("display","none");
 				// test-1
 				$(".icon-logout").css("display","block");
 				$("header .glyphicon").removeClass("glyphicon-th-large").addClass("glyphicon-remove");
@@ -54,9 +54,9 @@ function AdaptMenuContent(){
 
 				$("header .glyphicon").removeClass("glyphicon-remove").addClass("glyphicon-th-large");
 				$("#back-header2").css("display","block");
-				// test-1
-				$("header .home-upper-box").hide();
-				$("header .home-upper-box > div ").hide();
+				// // test-1
+				// $("header .home-upper-box").hide();
+				// $("header .home-upper-box > div ").hide();
 				// test-1
 				$(".icon-logout").css("display","none");
 				$("header").css("position","fixed");
