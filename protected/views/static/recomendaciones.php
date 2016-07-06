@@ -3,24 +3,24 @@
 
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section" id="checkbox">
 
-<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-estemes titulo-mobile"> <p> Este mes > Recomendaciones técnicas </p> </div>
+<div class="col-xs-12 hidden-sm hidden-md titulo-mobile-estemes titulo-mobile"> <p> Este mes > Recomendaciones técnicas </p> </div>
 
-	<h1 class="hidden-xs">Recomendaciones técnicas</h1>
+	<h1 class="hidden-xs hidden-lg">Recomendaciones técnicas</h1>
 
 
 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-container-producir container-recomendaciones">
  	<!-- Barra de color -->
-	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs barra-recomendaciones">     </div>
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs hidden-lg barra-recomendaciones">     </div>
 
 	<!-- Primer Caja -->
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-recomendaciones">
 
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 img-recomendaciones">
+		<div class="col-lg-12 col-md-3 col-sm-3 col-xs-12 img-recomendaciones">
 			<img  class="img-r-1 col-xs-6" src="<?php echo Yii::app()->request->baseUrl; ?>/img/vaca-r.png" alt="" />
-			<img  class="img-r-1 col-xs-6 hidden-lg hidden-md hidden-sm" src="<?php echo Yii::app()->request->baseUrl; ?>/img/vaca2-r.png" alt="" />
+			<img  class="img-r-1 col-xs-6 hidden-md hidden-sm" src="<?php echo Yii::app()->request->baseUrl; ?>/img/vaca2-r.png" alt="" />
 		</div>
 
-		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 parrafo-recomendaciones parrafo-recomendaciones-1">
+		<div class="col-lg-12 col-md-9 col-sm-9 col-xs-12 parrafo-recomendaciones parrafo-recomendaciones-1">
 			<p class="texto-blue-r">
 				Llega el otoño y nos encontramos, por un lado, con las <b>vacas preñadas atravesando su último
 				tercio de la gestación</b> y por el otro, con <b>los terneros recién destetados que entran en la recría</b>,
@@ -40,13 +40,13 @@
 
 	<!-- Segunda Caja -->
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-recomendaciones">
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 img-recomendaciones">
+		<div class="col-lg-12 col-md-3 col-sm-3 col-xs-12 img-recomendaciones">
 			<p class="title-side-r">
 				La recría
 			</p>
 			<img class="img-r-2" src="<?php echo Yii::app()->request->baseUrl; ?>/img/productos-r.png" alt="" />
 		</div>
-		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 parrafo-recomendaciones">
+		<div class="col-lg-12 col-md-9 col-sm-9 col-xs-12 parrafo-recomendaciones">
 			<p>
 				<span>EL CONTROL PARASITOLÓGICO</span> es muy importante en esta época (otoño-invierno), dado que el destete y la recría/invernada
 				 son las categorías más sensibles a la acción de los parásitos.En Argentina, las pérdidas estimadas por ciclo productivo
@@ -85,13 +85,13 @@
 	<!-- Tercera Caja -->
 
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-recomendaciones">
-		<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 img-recomendaciones">
+		<div class="col-lg-12 col-md-3 col-sm-3 col-xs-12 img-recomendaciones">
 			<p class="title-side-r">
 					Vacas </br>al preparto
 			</p>
 				<img class="img-r-3"  src="<?php echo Yii::app()->request->baseUrl; ?>/img/rotatec-r.png" alt="" />
 		</div>
-		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 parrafo-recomendaciones">
+		<div class="col-lg-12 col-md-9 col-sm-9 col-xs-12 parrafo-recomendaciones">
 			<p>
 				Para <b>prevenir enfermedades en terneros recién nacidos se debe inmunizar (vacunar) a las madres</b> en el último tercio de
 				 gestación. Esto genera defensas en las vacas que son transmitidas al ternero a través del calostro.

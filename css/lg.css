@@ -455,6 +455,25 @@ font-size: 2em;
 /*FIN ESTADO CORPORAL*/
 
 
+/*RECOMENDACIONES*/
+
+
+.img-r-2, .img-r-1{
+	width: 50%;
+}
+
+.img-r-3{
+	width: 20%;
+	margin-top: 50px;
+}
+
+.parrafo-recomendaciones li{
+	font-size: 2em;
+}
+/*FIN RECOMENDACIONES*/
+
+
+
 
 
 
