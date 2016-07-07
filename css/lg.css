@@ -44,6 +44,13 @@ ads
 /*FIN DE LAS QUE ESTABAN APLICADAS A XL*/
 
 
+/*GENERALES*/
+
+.section {
+ 	padding: 50px 45px;
+	margin-top: 50px;
+ }
+
 .col-lg-2-5 {
 	width: 20%;
 }
