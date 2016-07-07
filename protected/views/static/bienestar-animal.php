@@ -14,7 +14,7 @@
 <div class="col-lg12 col-md-12 col-sm-12 col-xs-12 general-container-producir">
 	<h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-producir-inside color-manejo">Premisas para un Trabajo Bien Hecho</h1>
 
-	<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 producir-inside-container" >
+	<div class="col-lg-12 col-md-9 col-sm-9 col-xs-12 producir-inside-container" >
 
 
 	<p>Hacer rápido un trabajo no es sinónimo de calidad. Hay que tener en cuenta que el trabajo en la manga implica costos no sólo de los productos a utilizar, sino también, y quizás lo más importante, implica un costo del personal y de trabajar sobre los animales.

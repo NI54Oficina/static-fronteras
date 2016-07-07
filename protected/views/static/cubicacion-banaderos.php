@@ -1,6 +1,6 @@
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section" id="estado-corporal">
 
-<div class="col-xs-12  hidden-sm hidden-mdtitulo-mobile-producir titulo-mobile"> <p> Manejo > Cubicación de bañaderos </p> </div>
+<div class="col-xs-12  hidden-sm hidden-md titulo-mobile-producir titulo-mobile"> <p> Manejo > Cubicación de bañaderos </p> </div>
 
 
 <div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs hidden-lg">
@@ -15,7 +15,7 @@
 <div class="col-lg12 col-md-12 col-sm-12 col-xs-12 general-container-producir">
 <h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-producir-inside color-manejo">Limpieza y manejo de bañaderos</h1>
 
-<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 producir-inside-container" >
+<div class="col-lg-12 col-md-9 col-sm-9 col-xs-12 producir-inside-container" >
 
 
 <h2>VACIADO Y LIMPIEZA.</h2>
