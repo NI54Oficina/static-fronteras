@@ -181,11 +181,11 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 <!-- TERMINA TIPO VACA 5 -->
 
 
-<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-sm center-to-parent container-boton-ganado"  hid="1">
+<div class="col-lg-1 col-md-1 col-sm-1 col-xs-1 hidden-xs hidden-lg hidden-sm center-to-parent container-boton-ganado"  hid="1">
 	<button class="boton-ganado next-ganado" id="next"></button>
 </div>
 
-<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  hidden-xs hidden-sm hidden-md  dot-nav-slider">
+<div class="col-lg-12 col-sm-12 col-md-12 col-xs-12  hidden-xs hidden-lg hidden-sm hidden-md  dot-nav-slider">
 	<ul>
 		<li class="nav-dots">
 			<?php foreach($ganado as $g){ ?>
