@@ -47,9 +47,9 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section remates">
 
-<div class="col-xs-12   titulo-mobile-estemes titulo-mobile"> <p> Este mes > Remates Generales </p> </div>
+<div class="col-xs-12 hidden-xl titulo-mobile-estemes titulo-mobile"> <p> Este mes > Remates Generales </p> </div>
 
-<h1 class="hidden-xs hidden-lg hidden-md hidden-sm">Remates generales</h1>
+<h1 class="hidden-xs hidden-md hidden-sm hidden-lg">Remates generales</h1>
 
 
 
@@ -66,7 +66,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 					<!-- fECHA EN MOBILE -->
 					<?php if(false){ ?>
-					<div class="mes-remates hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
+					<div class="mes-remates  hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
 
 					<div class="cont-fecha-mobile color-generales">
 					<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
@@ -80,10 +80,10 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 					<!-- Titulo FECHA -->
 					<?php if(false){ ?>
-					<div class="title-remates color-generales hidden-xs hidden-lg hidden-sm hidden-md"> <h2 class="center-to-parent">Fecha</h2></div>
+					<div class="title-remates color-generales hidden-xs hidden-sm hidden-md hidden-lg"> <h2 class="center-to-parent">Fecha</h2></div>
 					<div class="mes-remates hidden-xs hidden-lg" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
 					<?php } ?>
-					<div class="title-remates color-generales hidden-xs hidden-lg hidden-sm hidden-md col-lg-12 col-md-12"> <h2 class="center-to-parent">Fecha</h2></div>
+					<div class="title-remates color-generales hidden-xs hidden-sm hidden-md hidden-lg col-lg-12 col-md-12" hid="2"> <h2 class="center-to-parent">Fecha</h2></div>
 					<!-- Caja fecha particular -->
 
 					<?php
@@ -94,11 +94,20 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 						if(!$newDate){
 							?>
 							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg' hid='1' ></div>
+							<div class="info-remates-mobile  hidden-md">
+							<div class="mes-remates hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))-1]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
+							<div class=" cont-fecha-mobile color-generales ">
+							<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
+							<p class="fecha-remates-mobile date-remate ">
+									<?php echo $dias[date("w",strtotime($remate->fecha))]; ?> <?php echo date("d",strtotime($remate->fecha)); ?>
+							</p>
+							<button class="boton-prueba"><span class="glyphicon glyphicon-triangle-right"></span></button></div>
+							</div>
 							<?php
 						}else{
 							?>
-							<div class='col-lg-12 col-md-12 hidden-xs hidden-lg hidden-sm separator-table' ></div>
-							<div class="mes-remates hidden-xs hidden-lg  col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
+							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg separator-table' ></div>
+							<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
 							<?php if(false){ ?>
 							<div class="mes-remates hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
 							<?php } ?>
@@ -118,7 +127,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 					?>
 					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-celda" <?php if(!$newDate){ ?> style="display:none;" <?php } ?>>
 
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-fecha-remates color-generales hidden-lg hidden-xs hidden-md hidden-sm" hid="1" >
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 container-fecha-remates color-generales hidden-xs hidden-md hidden-sm hidden-lg" hid="1" >
 
 						<div class=" center-to-parent" >
 
@@ -146,7 +155,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 			<!-- Modalidad -->
 
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Modalidad</h2></div>
@@ -157,14 +166,21 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				foreach($remates as $remate){
 					CheckFecha($remate,$auxLastFecha,$newDate);
 					if($newDate){
-						?><div class='col-lg-12 col-md-12 hidden-xs hidden-lg hidden-sm separator-table' ></div>
+						?><div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg separator-table' ></div>
 						<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
 						<?php
 					}
 					?>
-					<div class="container-modalidad info-remates-mobile" hid="1">
-						<?php //echo $remate->fecha; ?>
-						<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-presencial.svg">
+					<div class="container-modalidad table-indexer info-remates-mobile col-lg-12 col-md-12" hid="1">
+						<?php if($remate["cate"]=="Físico"){ ?>
+							<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-presencial.svg">
+						<?php }else if($remate["cate"]=="Televisado"){
+							?><img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-televisado.svg"><?php
+						}else if($remate["cate"]=="Internet"){
+							?><img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/modalidades-internet.svg"><?php
+						}else{
+							echo $remate["cate"];
+						} ?>
 					</div>
 					<?php
 
@@ -174,7 +190,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 			<!-- Consignatorio-->
 
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Consignatario</h2></div>
@@ -185,12 +201,12 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				foreach($remates as $remate){
 				CheckFecha($remate,$auxLastFecha,$newDate);
 				if($newDate){
-					?><div class='col-lg-12 col-md-12 hidden-lg hidden-xs hidden-sm separator-table' ></div>
+					?><div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg separator-table' ></div>
 					<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
 					<?php
 				}
 				?>
-				<div class="container-consignatorio info-remates-mobile" hid="1">
+				<div class="container-consignatorio info-remates-mobile col-lg-12 col-md-12" hid="1">
 					<p class="center-to-parent"><?php echo $remate["consignatario"]; ?></p>
 				</div>
 				<?php
@@ -201,7 +217,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 			<!-- Lugar-->
 
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Lugar</h2></div>
@@ -213,12 +229,12 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				CheckFecha($remate,$auxLastFecha,$newDate);
 				if($newDate){
 					?>
-					<div class='col-lg-12 col-md-12 hidden-lg hidden-xs hidden-sm separator-table' ></div>
+					<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg separator-table' ></div>
 					<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
 					<?php
 				}
 				?>
-				<div class="container-lugar info-remates-mobile" hid="1">
+				<div class="container-lugar info-remates-mobile col-lg-12 col-md-12" hid="1">
 					<p class=""><?php echo $remate["lugar"]; ?></p>
 					<p class=""><?php echo $remate["detalle"]; ?></p>
 				</div>
@@ -239,20 +255,32 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				CheckFecha($remate,$auxLastFecha,$newDate);
 				if($newDate){
 					?>
-					<div class='col-lg-12 col-md-12 hidden-lg hidden-xs hidden-sm separator-table' ></div>
-					<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"></h2></div>
+					<div class='col-lg-12 col-md-12 hidden-xs hidden-lg hidden-sm separator-table' ></div>
+					<div class="mes-remates hidden-xs  hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"></h2></div>
 					<?php
 				}
 				?>
-				<div class="container-provincia  info-remates-mobile" hid="1">
-				<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/provincias-la-pampa.svg"></div>
+				<div class="container-provincia  info-remates-mobile col-lg-12 col-md-12" hid="1">
+				<?php
+				$provincia= $remate["provincia"];
+				$provincia=strtolower ($remate["provincia"]);
+				$provincia=str_replace(".","",$provincia);
+				$provincia=str_replace(" ","-",$provincia);
+				$provincia=str_replace("á","a",$provincia);
+				$provincia=str_replace("é","e",$provincia);
+				$provincia=str_replace("è","e",$provincia);
+				$provincia=str_replace("í","i",$provincia);
+				$provincia=str_replace("ó","o",$provincia);
+				$provincia=str_replace("ú","u",$provincia);
+				?>
+				<img class="center-to-parent" src="<?php echo Yii::app()->request->baseUrl; ?>/img/provincias/provincias-<?php echo $provincia; ?>.svg"></div>
 				<?php } ?>
 
 			</div>
 
 			<!-- Cabezas-->
 
-			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  remates-box containerColumnas">
+			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Cabezas</h2></div>
@@ -263,12 +291,12 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				foreach($remates as $remate){
 				CheckFecha($remate,$auxLastFecha,$newDate);
 				if($newDate){
-					?><div class='col-lg-12 col-md-12 hidden-lg hidden-xs hidden-sm separator-table' ></div>
+					?><div class='col-lg-12 col-md-12 hidden-xs hidden-lg hidden-sm separator-table' ></div>
 					<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"></h2></div>
 					<?php
 				}
 				?>
-				<div class="container-cabezas info-remates-mobile table-indexer" hid="1" <?php if($remate->suspendido!=""){ ?> style="background-color:red;" <?php } ?> >
+				<div class="container-cabezas info-remates-mobile col-lg-12 col-md-12" hid="1" <?php if($remate->suspendido!=""){ ?> style="background-color:red;" <?php } ?> >
 					<p class="center-to-parent"><?php echo $remate["cabezas"]; ?></p>
 				</div>
 				<?php } ?>
