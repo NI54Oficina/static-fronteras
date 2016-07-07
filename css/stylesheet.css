@@ -2267,7 +2267,7 @@ display: inline-block;
 	width: 85%;
 	position: relative;
 	/*max-width: 235px;*/
-	
+
 }
 
 
@@ -2641,10 +2641,15 @@ outline: none;
   background-color: #189DBF;
 }
 
-.container-recomendaciones p{
+.container-recomendaciones p, .container-recomendaciones .text-r{
   color: #8C8C8C;
   text-align: left;
 }
+
+.text-r{
+  margin: 10px 0px;
+}
+
 
 .texto-blue-r {
   color:#189DBF !important;

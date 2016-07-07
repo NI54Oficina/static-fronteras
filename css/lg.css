@@ -152,6 +152,8 @@ ads
     width: 50%;
 }
 
+
+
 .maxbox-clima h3 {
     font-size: 5em;
 }
@@ -308,6 +310,12 @@ padding: 10px;
 	 padding: 50px;
 }
 
+.box-mercado .table-mercado-items .moneda-mercados {
+
+    padding-top: 20px !important;
+	}
+
+
 .btn, .btn-indicadores{
 	font-size: 3em;
 	width: 260px;
@@ -318,7 +326,7 @@ padding: 10px;
 }
 .actualizar-ganado  {
     min-height: auto;
-		height: 50px;
+		height: 60px;
 }
 
 .box-mercado .general-table-mercados {
