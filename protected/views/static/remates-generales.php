@@ -47,7 +47,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section remates">
 
-<div class="col-xs-12 hidden-xl titulo-mobile-estemes titulo-mobile"> <p> Este mes > Remates Generales </p> </div>
+<div class="col-xs-12 titulo-mobile-estemes titulo-mobile"> <p> Este mes > Remates Generales </p> </div>
 
 <h1 class="hidden-xs hidden-md hidden-sm hidden-lg">Remates generales</h1>
 

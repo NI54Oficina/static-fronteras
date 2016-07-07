@@ -579,8 +579,37 @@ header .home-upper-box img:nth-child(2) {
 
 	.fecha-remates-mobile {
 	    font-size: 3.9em;
-			padding: 50px 0px;
+			padding: 60px 0px;
 	}
+
+	.title-remates h2 {
+	    font-size: 2.3em;
+	}
+
+	.container-consignatorio p, .container-lugar p {
+
+    font-size: 2.4rem;
+}
+
+.container-cabezas p {
+    font-size: 3.3em;
+	}
+
+	.container-lugar {
+    min-height: 150px;
+}
+
+.container-lugar p:first-child {
+    padding-top: 30px;
+	}
+
+	.glyphicon-triangle-right {
+    font-size: 3em;
+	}
+
+	.boton-prueba-atras, .boton-prueba {
+    top: 64%;
+}
 
 /*FIN REMATES*/
 
