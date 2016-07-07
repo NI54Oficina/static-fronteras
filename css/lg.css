@@ -305,6 +305,7 @@ padding: 10px;
 /*MERCADOS*/
 .container-items-mercados h3 {
 	 font-size: 5em !important;
+	 padding: 50px;
 }
 
 .btn, .btn-indicadores{
@@ -312,6 +313,17 @@ padding: 10px;
 	width: 260px;
 }
 
+.actualizar-ganado p {
+    font-size: 2em!important;
+}
+.actualizar-ganado  {
+    min-height: auto;
+		height: 50px;
+}
+
+.box-mercado .general-table-mercados {
+    padding: 50px 30px;
+}
 
 .columna-indicadores p, .columna-ganado p, .columna-granos p{
 font-size: 2em;
@@ -500,11 +512,12 @@ font-size: 2em;
     top: 20px !important;
 		z-index: 2;
 		font-size: 50px;
+		left: inherit;
 }
 
 #inner-header {
-    background-color: transparent;
-		  /*background: radial-gradient(circle,white,#f4dfd1);*/
+    /*background-color: transparent;*/
+		  background: radial-gradient(circle,white,#f4dfd1);
 }
 #back-header2{
 	margin-top: 5%;
