@@ -362,6 +362,7 @@ header .home-box:hover > .hoy-box {
 
 /*********************** HOY ********************/
 
+
 .img-noticias-hoy{
   margin-top: 20%;
 }
@@ -1400,7 +1401,7 @@ header .home-box:hover > .hoy-box {
 
 .p-button-clima:hover{
   background-color:black !important;
-  opacity: .3 !important;
+  opacity: .2 !important;
   transition: 2s !important;
 }
 
@@ -1877,14 +1878,14 @@ header .home-box:hover > .hoy-box {
 	background-color:#003D6A;
 }
 
-.box-sanidad-inner:hover{
-  background-color:#fdfdfd;
+.box-producir-2 .box-sanidad-inner:hover{
+  background-color:#dfcaec;
 }
 .box-nutricion {
 	background-color:#BAA200;
 }
 
-.box-genetica-inner:hover{
+.box-producir-2 .box-genetica-inner:hover{
 	background-color:#f1e0d3;
 }
 
@@ -1895,7 +1896,7 @@ header .home-box:hover > .hoy-box {
  	border:2px solid #003D6A ;
 }
 
-.box-manejo-inner:hover{
+.box-producir-2  .box-manejo-inner:hover{
   background: #d7e1e8;
 
 }
@@ -2266,7 +2267,7 @@ display: inline-block;
 	width: 85%;
 	position: relative;
 	/*max-width: 235px;*/
-
+	
 }
 
 
@@ -2680,7 +2681,7 @@ outline: none;
 
 .img-r-3{
   width: 40%;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .parrafo-recomendaciones li{
@@ -2722,6 +2723,7 @@ outline: none;
 
 .container-fecha-remates p {
 	color:white;
+	margin-bottom:0;
 }
 
 .container-fecha-remates p:first-child {
@@ -2732,6 +2734,7 @@ outline: none;
 .container-fecha-remates p:nth-child(2) {
 
     font-size: 4rem;
+	line-height:3.2rem;
 }
 
 .container-fecha-remates p:nth-child(3) {
@@ -2744,9 +2747,18 @@ outline: none;
   height: 10px;
 }
 
+.mes-remates.color-cabanias{
+	background-color:#edc994;
+}
+
 .mes-remates > h2{
   color: white;
   font-size: 1.3em;
+}
+
+.info-remates-mobile img{
+	max-height:90%;
+	text-align:center;
 }
 
 /** Container modadlidad, consignatorio, lugar, provincia, cabezas **/
@@ -2879,6 +2891,7 @@ outline: none;
     left: auto;
     background-color: rgba(99, 99, 99, 0);
     border: none;
+	outline:none;
 }
 
 .b-prot-ad{
@@ -2886,6 +2899,7 @@ outline: none;
       right: 8%;
       background-color: rgba(99, 99, 99, 0);
       border: none;
+	  outline:none;
 }
 /********************TERMINA REMATES EN MOBILE*****************/
 
@@ -3366,6 +3380,11 @@ outline: none;
 	margin-top:0;
 	height:2.3em;
 	background-position:center;
+	width:50px;
+	height:50px;
+	background-size:1.8em auto;
+	background-repeat: no-repeat;
+	background-position: 0 0.3em;
 }
 
 
@@ -3396,6 +3415,7 @@ outline: none;
 
 .navbar-toggle2{
 	position:absolute;
+	left:0;
 	z-index:200;
 }
 
