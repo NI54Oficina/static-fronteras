@@ -73,10 +73,12 @@ ads
 
 #ul-nav-principal {
 		padding-left:15px;
+		width:100vw;
+		text-align:center;
 	}
 
 	#inner-header{
-		height:2.5em !important;
+		
 	}
 
 
@@ -555,6 +557,8 @@ font-size: 2em;
 		left: inherit;
 }
 
+#bg-square{display:none;}
+
 #inner-header {
     /*background-color: transparent;*/
 		  background: radial-gradient(circle,white,#f4dfd1);
@@ -568,7 +572,10 @@ font-size: 2em;
 header	.home-upper-box {
 	    padding: 30px 40px;
 			padding-top: 50px;
-	}
+			display:block;
+}
+	
+	
 
 header .home-upper-box img:nth-child(1) {
     width: 20em;
@@ -611,8 +618,11 @@ header .home-upper-box img:nth-child(2) {
 	}
 
 	#inner-header{
-		height:2.5em !important;
+		/*height:0 !important;
+		/*overflow-y:hidden !important;*/
+		/*display:none;*/
 	}
+	
 
 	.mes-remates > h2 {
 	    font-size: 4em;
