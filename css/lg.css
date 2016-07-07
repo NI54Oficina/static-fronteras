@@ -429,6 +429,13 @@ font-size: 2em;
 	color: white;
 }
 
+.remates-box {
+    padding: 1px 1px;
+}
+
+.fecha-remates-mobile{
+	font-size: 4em !important;
+}
 /*FIN RETIRO PRODUCTOS*/
 
 
@@ -444,13 +451,40 @@ font-size: 2em;
 /*PROTOCOLO DE REPRODUCCION	*/
 
 .b-prot-at {
-    top: .9% !important;
+    top: 8% !important;
     left: 5px;;
     border: none;
+		font-size: 2em
 }
 .b-prot-ad {
-    top: 7% !important;
+    top: 8% !important;
 }
+
+.title-prot h2 {
+    font-size: 2.3em;
+
+}
+
+.title-prot {
+    height: 100px;
+}
+
+.container-prot {
+    font-size: 2em;
+}
+.prot-po > p {
+
+    font-size: 1em;
+}
+
+.number-protocolo {
+    font-size: 4em;
+}
+
+.img-prot-static{
+	width: 5% !important;
+}
+
 
  /*FIN PROTOCOLO DE REPRODUCCION*/
 
@@ -463,6 +497,7 @@ font-size: 2em;
 .p-estado-1{
 	font-size: 2em;
 }
+
 
 /*GANADO*/
 
@@ -480,6 +515,10 @@ font-size: 2em;
     width: 20px;
     height: 20px;
 	}
+
+.dot-nav-slider{
+	margin:30px 0px;
+}
 
 /*FIN ESTADO CORPORAL*/
 
@@ -562,7 +601,7 @@ header .home-upper-box img:nth-child(2) {
 
 /*FIN SPLASH HOME*/
 
-/*******REMATES*******/
+/* REMATES GENERALES & REMATES CABAÑAS */
 .container-modalidad {
     margin-left: 10px;
 	}
@@ -610,6 +649,8 @@ header .home-upper-box img:nth-child(2) {
 	.boton-prueba-atras, .boton-prueba {
     top: 64%;
 }
+.info-remates-mobile img {
+    width: 60%;
 
 /*FIN REMATES*/
 
