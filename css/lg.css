@@ -187,7 +187,7 @@ ads
 /*SECCION NOTICIAS*/
 
 .box-noticias h1, .noticia-columna h1 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .container-texto-noticias h2 {
@@ -230,12 +230,25 @@ ads
 /*FIN SECCION NOTICIAS*/
 
 /*SECCION clima*/
+
+#clima {
+	margin-top: 50px;
+}
+
+.box-clima .form-clima {
+    border-bottom: 7px solid #0078B9;
+}
+
 .box-clima-title{
 	height: auto !important;
 }
 
+#formClima {
+    padding: 20px 20px;
+}
+
 .box-clima select {
-    font-size: 2em;
+    font-size: 3em;
 }
 .box-clima .fecha-descripcion, #lluvias-temperaturas-h1 {
 
@@ -483,7 +496,8 @@ font-size: 2em;
 /*HEADER*/
 .navbar-toggle2 {
 	position: absolute;
-    right: 0!important;
+		right: 20px!important;
+    top: 20px !important;
 		z-index: 2;
 		font-size: 50px;
 }
