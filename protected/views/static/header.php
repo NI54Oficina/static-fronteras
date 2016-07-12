@@ -127,7 +127,7 @@ function AdaptMenuContentApp(){
 
 <header class="headerDesktop" >
 
-	<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs hidden-lg header-logos">
+	<div class="col-lg-12 col-md-12 col-sm-12 hidden-xs hidden-md hidden-lg header-logos">
 
 		<!--Logo fronteras -->
 		<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
@@ -147,13 +147,13 @@ function AdaptMenuContentApp(){
 
 
 
-	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xs boton-volver-header  hidden-md hidden-sm"  style="height:100%;">
+	<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-xs boton-volver-header  hidden-sm"  style="height:100%;">
 
 	 <button class="boton-header"  id="back-header2" style="display:inline-block;overflow:hidden;" type="button"></button>
 	 <i class="demo-icon icon-logout" style="font-size:1.5em;color:gray;float:left;"></i>
 	  	</div>
 
-<span  class=" hidden-sm hidden-md glyphicon glyphicon-th-large navbar-toggle2 collapsed" ></span>
+<span  class=" hidden-sm  glyphicon glyphicon-th-large navbar-toggle2 collapsed" ></span>
 
 <span  class="navbar-toggle" data-toggle="collapse" data-target="#inner-header" aria-expanded="false" aria-controls="navbar" style="position:absolute;"></span>
 
@@ -178,10 +178,10 @@ function AdaptMenuContentApp(){
 
 
 						<!-- Header que se muestra solamente en pc - XL - MD -->
-					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-menu-mob hidden-xs hidden-lg">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 cont-menu-mob hidden-xs hidden-md hidden-lg">
 
 						<!-- BOTON VOLVER -->
-						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs hidden-lg boton-volver-header" style="margin-top:.3%">
+						<div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 hidden-xs hidden-lg hidden-md  boton-volver-header" style="margin-top:.3%">
 							<button class="boton-header  col-lg-1 col-md-1 col-sm-1 col-xs-1"  id="back-header" style="" type="button"></button><p class="back-p col-lg-1 col-md-1 col-sm-1 col-xs-1 center-to-parent" style="" >Volver</p>
 						</div>
 
@@ -269,7 +269,7 @@ function AdaptMenuContentApp(){
 
 					<!-- Header que se muestra solamente en SM , XS -->
 
-				<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12   hidden-md header-mobb hidden-sm">
+				<div class="home-bottom-box col-lg-12 col-md-12 col-sm-12 col-xs-12   header-mobb hidden-sm">
 
 						<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy">
 
