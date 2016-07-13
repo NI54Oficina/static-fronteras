@@ -159,7 +159,7 @@ function AdaptMenuContentApp(){
 
 
 
-<div id="inner-header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse header-palabras-menu" data-toggle="collapse">
+<div id="inner-header" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 collapse navbar-collapse header-palabras-menu bg-fit" data-toggle="collapse">
 
 
 
@@ -273,7 +273,7 @@ function AdaptMenuContentApp(){
 
 						<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/hoy">
 
-							<div class="home-box col-lg-6 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+							<div class="home-box col-lg-6 col-md-6 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
 
 							<div class="hoy-box square"  >
@@ -290,7 +290,7 @@ function AdaptMenuContentApp(){
 
 					<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/estemes">
 
-							<div  class="home-box col-lg-6 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+							<div  class="home-box col-lg-6 col-md-6 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
 								<div class="estemes-box square">
 									<div hid="18">
@@ -303,7 +303,7 @@ function AdaptMenuContentApp(){
 					</a>
 
 					<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/producir">
-						<div  class="home-box col-lg-6 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+						<div  class="home-box col-lg-6 col-md-6 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
 
 								<div class="producir-box square" >
 									<div hid="18">
@@ -318,8 +318,8 @@ function AdaptMenuContentApp(){
 					</a>
 
 					<a class="link-menu" href="<?php echo Yii::app()->getBaseUrl(true); ?>/ayuda">
-						<div  class="home-box col-lg-6 col-md-3 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
-
+						<div  class="home-box col-lg-6 col-md-6 col-sm-3 col-xs-6 col-xl-4 col-lan-xs-3">
+ 
 							<div class="ayuda-box square" >
 								<div hid="18">
 

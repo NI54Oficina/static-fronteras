@@ -23,6 +23,7 @@ ads
 	margin-top: 0% !important;
 }
 
+
 #ul-nav-principal {
 		padding-left:15px;
 	}
@@ -77,9 +78,7 @@ ads
 		text-align:center;
 	}
 
-	#inner-header{
 
-	}
 
 	.box-producir-2 {
 	    padding: 30px;
@@ -591,9 +590,10 @@ display: inline;;
 
 #bg-square{display:none;}
 
-#inner-header {
-    /*background-color: transparent;*/
-		  background: radial-gradient(circle,white,#f4dfd1);
+#inner-header{
+		background: url(../img/bg-index.png);
+		background-size:auto  100% ;
+		background-position: center;
 }
 #back-header2{
 	margin-top: 5%;
@@ -604,7 +604,7 @@ display: inline;;
 
 header	.home-upper-box {
 	    padding: 30px 40px;
-			padding-top: 50px;
+			padding-top: 100px;
 			display:block;
 }
 
@@ -650,11 +650,6 @@ header .home-upper-box img:nth-child(2) {
     margin-left: 10px;
 	}
 
-	#inner-header{
-		/*height:0 !important;
-		/*overflow-y:hidden !important;*/
-		/*display:none;*/
-	}
 
 
 	.mes-remates > h2 {
