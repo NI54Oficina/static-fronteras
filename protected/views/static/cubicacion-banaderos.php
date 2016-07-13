@@ -1,9 +1,9 @@
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section" id="estado-corporal">
 
-<div class="col-xs-12  hidden-sm hidden-md titulo-mobile-producir titulo-mobile"> <p> Manejo > Cubicación de bañaderos </p> </div>
+<div class="col-xs-12  hidden-sm  titulo-mobile-producir titulo-mobile"> <p> Manejo > Cubicación de bañaderos </p> </div>
 
 
-<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs hidden-lg">
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs hidden-lg hidden-md">
 	<div class="box-manejo border-shadow">
 		<div class="box-manejo-inner ">
 			<p class="center-to-parent color-manejo planes-h1">Cubicación de bañaderos</p>
@@ -12,10 +12,10 @@
 </div>
 
 
-<div class="col-lg12 col-md-12 col-sm-12 col-xs-12 general-container-producir">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-container-producir">
 <h1 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 title-producir-inside color-manejo">Limpieza y manejo de bañaderos</h1>
 
-<div class="col-lg-12 col-md-9 col-sm-9 col-xs-12 producir-inside-container" >
+<div class="col-lg-12 col-md-12 col-sm-9 col-xs-12 producir-inside-container" >
 
 
 <h2>VACIADO Y LIMPIEZA.</h2>
@@ -83,13 +83,13 @@ Si es posible una vez cubicado el baño esperar unas 12 hs, volver a tomar el pH
 
 
 
-	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+	<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
 
 
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 block-img" hid="2" >
 
-			<div class="col-lg-5 col-md-5 col-sm-5 col-xs-6" >
+			<div class="col-lg-6 col-md-6 col-sm-5 col-xs-6" >
 				<img  class="block-img-1" src="<?php echo Yii::app()->request->baseUrl; ?>/img/cubicacion-01.png">
 			</div>
 
