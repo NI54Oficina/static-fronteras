@@ -1,4 +1,4 @@
-<div class="col-xs-12  hidden-sm hidden-md titulo-mobile-producir titulo-mobile"> <p>Sanidad > Retiro de productos veterinarios</p> </div>
+<div class="col-xs-12  hidden-sm titulo-mobile-producir titulo-mobile"> <p>Sanidad > Retiro de productos veterinarios</p> </div>
 
 <?php
 
@@ -75,7 +75,7 @@ $retiros= Retiro::model()->findAll();
 
 			<!-- Img producto-->
 
-			<div class="col-lg-6 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2></h2></div>
@@ -99,7 +99,7 @@ $retiros= Retiro::model()->findAll();
 
 			<!-- Producto Senasa-->
 
-			<div class="col-lg-6 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2>Producto Senasa</h2></div>
@@ -118,7 +118,7 @@ $retiros= Retiro::model()->findAll();
 
 			<!-- Nombre Comercial Reg -->
 
-			<div class="col-lg-6 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2>Nombre Comercial Reg</h2></div>
@@ -136,7 +136,7 @@ $retiros= Retiro::model()->findAll();
 
 
 			<!-- Retiro en carne -->
-			<div class="col-lg-6 col-md-2-5 col-sm-2-5 col-xs-6 remates-box containerColumnas">
+			<div class="col-lg-6 col-md-6 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2> Retiro en carne</h2></div>
@@ -154,7 +154,7 @@ $retiros= Retiro::model()->findAll();
 
 			<!-- Retiro en leche -->
 
-			<div class="col-lg-12 col-md-2-5 col-sm-2-5 col-xs-12  remates-box containerColumnas">
+			<div class="col-lg-12 col-md-6 col-sm-2-5 col-xs-12  remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2> Retiro en leche</h2></div>
