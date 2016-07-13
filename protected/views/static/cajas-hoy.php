@@ -22,7 +22,7 @@
 	?>
 
 	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/mercados" class="">
-	<div class="maxboxes col-lg-12 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6" hid="1">
+	<div class="maxboxes col-lg-12 col-md-12 col-sm-6 col-xs-12 col-lan-xs-6" hid="1">
 		<div class="maxbox-mercados maxboxes-inner " hid="6">
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hoy-box-upper" hid="5">
@@ -78,7 +78,7 @@
 		foreach($f as $f2){
 	 ?>
 	 <a href="<?php echo Yii::app()->getBaseUrl(true); ?>/clima" class="">
-	<div class="maxboxes col-lg-12 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6" hid="1">
+	<div class="maxboxes col-lg-12 col-md-12 col-sm-6 col-xs-12 col-lan-xs-6" hid="1">
 		<div class="maxbox-clima maxboxes-inner  " hid="6">
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hoy-box-upper" hid="5">
@@ -122,7 +122,7 @@
 
 	<!-- Noticias del sector -->
 <a href="<?php echo Yii::app()->getBaseUrl(true); ?>/noticias" class="">
-	<div class="maxboxes col-lg-12 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6" hid="1">
+	<div class="maxboxes col-lg-12 col-md-12 col-sm-6 col-xs-12 col-lan-xs-6" hid="1">
 
 
 		<div class="maxbox-noticias maxboxes-inner   " hid="6">

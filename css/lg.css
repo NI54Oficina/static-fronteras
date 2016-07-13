@@ -20,7 +20,7 @@ ads
 }
 
 .home-bottom-box p {
-	margin-top: 5%;
+	margin-top: 0% !important;
 }
 
 #ul-nav-principal {
