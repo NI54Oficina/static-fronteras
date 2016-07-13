@@ -3,7 +3,7 @@
 <div class="box-clima col-lg-12 col-md-12 col-sm-12 col-xs-12 fadder">
 
 	<!-- Clima -->
-	<div class="col-lg-12 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6 box-clima-title fill-element " hid="1" >
+	<div class="col-lg-12 col-md-12 col-sm-6 col-xs-12 col-lan-xs-6 box-clima-title fill-element " hid="1" >
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-clima fixedChildren">
 
@@ -35,7 +35,7 @@
 		foreach($f as $f2){
 	 ?>
 
-	<div  class="col-lg-12 col-md-4 col-sm-6 col-xs-12 col-lan-xs-6" hid="1">
+	<div  class="col-lg-12 col-md-12 col-sm-6 col-xs-12 col-lan-xs-6" hid="1">
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box-clima-inner"   >
 
@@ -73,7 +73,7 @@
 		<?php } } } }else{
 		?>
 
-		<div  class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+		<div  class="col-lg-12 col-md-12 col-sm-6 col-xs-12">
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 			<p>No se han encontrado informes del clima para la ciudad solicitada. Por favor intente más tarde.
 			</p>

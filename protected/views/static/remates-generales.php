@@ -66,7 +66,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 					<!-- fECHA EN MOBILE -->
 					<?php if(false){ ?>
-					<div class="mes-remates  hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
+					<div class="mes-remates  hidden-sm " hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
 
 					<div class="cont-fecha-mobile color-generales">
 					<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
@@ -81,7 +81,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 					<!-- Titulo FECHA -->
 					<?php if(false){ ?>
 					<div class="title-remates color-generales hidden-xs hidden-sm hidden-md hidden-lg"> <h2 class="center-to-parent">Fecha</h2></div>
-					<div class="mes-remates hidden-xs hidden-lg" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
+					<div class="mes-remates hidden-xs hidden-lg hidden-md" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
 					<?php } ?>
 					<div class="title-remates color-generales hidden-xs hidden-sm hidden-md hidden-lg col-lg-12 col-md-12" hid="2"> <h2 class="center-to-parent">Fecha</h2></div>
 					<!-- Caja fecha particular -->
@@ -93,9 +93,9 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 						CheckFecha($remate,$auxLastFecha,$newDate);
 						if(!$newDate){
 							?>
-							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg' hid='1' ></div>
-							<div class="info-remates-mobile  hidden-md">
-							<div class="mes-remates hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))-1]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
+							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg hidden-md' hid='1' ></div>
+							<div class="info-remates-mobile  ">
+							<div class="mes-remates hidden-sm " hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))-1]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
 							<div class=" cont-fecha-mobile color-generales ">
 							<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
 							<p class="fecha-remates-mobile date-remate ">
@@ -106,14 +106,14 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 							<?php
 						}else{
 							?>
-							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg separator-table' ></div>
-							<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
+							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-md hidden-lg separator-table' ></div>
+							<div class="mes-remates hidden-xs hidden-md hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
 							<?php if(false){ ?>
-							<div class="mes-remates hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
+							<div class="mes-remates hidden-sm " hid="2">	<h2 class="center-to-parent"> MAYO 2016 </h2></div>
 							<?php } ?>
 
 							<div class="info-remates-mobile">
-							<div class="mes-remates  hidden-sm hidden-md" hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))-1]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
+							<div class="mes-remates  hidden-sm " hid="2">	<h2 class="center-to-parent"> <?php echo $mes[date("n",strtotime($remate->fecha))-1]; ?> <?php echo date("Y",strtotime($remate->fecha)); ?> </h2></div>
 							<div class="cont-fecha-mobile color-generales ">
 							<button class="boton-prueba-atras"><span class="glyphicon glyphicon-triangle-left"></span> </button>
 							<p class="fecha-remates-mobile date-remate ">
@@ -143,7 +143,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 					<?php
 						if($newDate){
 							?>
-							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg' hid='1' ></div>
+							<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-md hidden-lg' hid='1' ></div>
 							<?php
 						}
 					} ?>
@@ -166,8 +166,8 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				foreach($remates as $remate){
 					CheckFecha($remate,$auxLastFecha,$newDate);
 					if($newDate){
-						?><div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg separator-table' ></div>
-						<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
+						?><div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-md hidden-lg separator-table' ></div>
+						<div class="mes-remates hidden-xs hidden-lg hidden-md col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
 						<?php
 					}
 					?>
@@ -201,8 +201,8 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				foreach($remates as $remate){
 				CheckFecha($remate,$auxLastFecha,$newDate);
 				if($newDate){
-					?><div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg separator-table' ></div>
-					<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
+					?><div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg hidden-md separator-table' ></div>
+					<div class="mes-remates hidden-xs hidden-md hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
 					<?php
 				}
 				?>
@@ -229,8 +229,8 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				CheckFecha($remate,$auxLastFecha,$newDate);
 				if($newDate){
 					?>
-					<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-lg separator-table' ></div>
-					<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
+					<div class='col-lg-12 col-md-12 hidden-xs hidden-sm hidden-md hidden-lg separator-table' ></div>
+					<div class="mes-remates hidden-xs hidden-lg hidden-md col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent">  </h2></div>
 					<?php
 				}
 				?>
@@ -255,8 +255,8 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				CheckFecha($remate,$auxLastFecha,$newDate);
 				if($newDate){
 					?>
-					<div class='col-lg-12 col-md-12 hidden-xs hidden-lg hidden-sm separator-table' ></div>
-					<div class="mes-remates hidden-xs  hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"></h2></div>
+					<div class='col-lg-12 col-md-12 hidden-xs hidden-lg hidden-sm hidden-md separator-table' ></div>
+					<div class="mes-remates hidden-xs hidden-md hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"></h2></div>
 					<?php
 				}
 				?>
@@ -291,8 +291,8 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				foreach($remates as $remate){
 				CheckFecha($remate,$auxLastFecha,$newDate);
 				if($newDate){
-					?><div class='col-lg-12 col-md-12 hidden-xs hidden-lg hidden-sm separator-table' ></div>
-					<div class="mes-remates hidden-xs hidden-lg col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"></h2></div>
+					?><div class='col-lg-12 col-md-12 hidden-xs hidden-md hidden-lg hidden-sm separator-table' ></div>
+					<div class="mes-remates hidden-xs hidden-lg  hidden-md col-lg-12 col-md-12" hid="2">	<h2 class="center-to-parent"></h2></div>
 					<?php
 				}
 				?>

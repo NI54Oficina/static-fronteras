@@ -403,13 +403,10 @@ font-size: 2em;
  /*ENFERMEDADES*/
 
  .enfermedades-box p, #enfermedades-more{
-    font-size: 5em;
+    font-size: 3em!important;
 }
 
-/*.planes:hover .planes-box {
-    zoom: 1;
-    margin-top: -8vh;
-}*/
+
 
 /*FIN ENFERMEDADES*/
 /*PLANES SANITARIOS*/
@@ -662,7 +659,7 @@ header .home-upper-box img:nth-child(2) {
     padding-top: 30px;
 	}
 
-	.glyphicon-triangle-right {
+	.glyphicon-triangle-right, .glyphicon-triangle-left {
     font-size: 3em;
 	}
 

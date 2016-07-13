@@ -1,8 +1,8 @@
 <section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
-<div class="col-xs-12 hidden-sm hidden-md titulo-mobile-producir titulo-mobile"> <p> Producir + </p> </div>
+<div class="col-xs-12 hidden-sm    titulo-mobile-producir titulo-mobile"> <p> Producir + </p> </div>
 
- <div class="gota-producir  col-lg-6 col-md-4 col-sm-6 col-xs-6 col-lan-xs-4 ">
+ <div class="gota-producir  col-lg-6 col-md-6 col-sm-6 col-xs-6 col-lan-xs-4 ">
 	 <div id="btn-sanidad" class="square">
  		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/sanidad">
  			<img class="prod-gota-menu" id="prueba" src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-sanidad.svg" alt="Sanidad">
@@ -11,7 +11,7 @@
 
  </div>
 
- <div class="gota-producir col-lg-6 col-md-4 col-sm-6 col-xs-6 col-lan-xs-4">
+ <div class="gota-producir col-lg-6 col-md-6 col-sm-6 col-xs-6 col-lan-xs-4">
  	<div id="btn-manejo" class="square">
  		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/manejo">
  			<img class="prod-gota-menu" src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-manejo.svg" alt="Manejo">
@@ -20,7 +20,7 @@
 
  </div>
 
- <div class="gota-producir  col-lg-6 col-md-4 col-sm-6 col-xs-6 col-lan-xs-4">
+ <div class="gota-producir  col-lg-6 col-md-6 col-sm-6 col-xs-6 col-lan-xs-4">
  	<div id="btn-genetica" class="square">
  		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/genetica">
  			<img class="prod-gota-menu" src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-genetica.svg" alt="Genetica">
@@ -37,7 +37,7 @@
  	</div>
  </div> -->
 
- <div class="gota-producir  col-lg-6 col-md-4 col-sm-6 col-xs-6 col-lan-xs-4">
+ <div class="gota-producir  col-lg-6 col-md-6 col-sm-6 col-xs-6 col-lan-xs-4">
  	 <div id="btn-fronteras" class="square">
  	 	<a href="http://www.fronterasproductivas.com/" target="_blank">
  			<img class="prod-gota-menu" src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-fronteras.svg" alt="">
@@ -45,7 +45,7 @@
  	</div>
  </div>
 
- <div class=" gota-producir col-lg-6 col-md-4 col-sm-6 col-xs-6 col-lan-xs-4">
+ <div class=" gota-producir col-lg-6 col-md-6 col-sm-6 col-xs-6 col-lan-xs-4">
    	<div id="btn-veterinaria" class="square">
    		<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/redveterinaria">
  			<img  class="prod-gota-menu" src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-veterinarias.svg" alt="">
@@ -53,7 +53,7 @@
  	</div>
  </div>
 
- <div class=" gota-producir  col-lg-6 col-md-4 col-sm-6 col-xs-6 col-lan-xs-4">
+ <div class=" gota-producir  col-lg-6 col-md-6 col-sm-6 col-xs-6 col-lan-xs-4">
   	<div id="btn-intereses" class="square">
   	<a href="<?php echo Yii::app()->getBaseUrl(true); ?>/intereses">
   		<img class="prod-gota-menu" src="<?php echo Yii::app()->request->baseUrl; ?>/img/gota-links.svg" alt="">
