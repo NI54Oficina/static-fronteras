@@ -361,8 +361,12 @@ font-size: 2em;
      max-width:none;
 }
 
-.box-producir-2 p, .name-genetica  {
+.box-producir-2 p {
     font-size: 3em;
+}
+
+.name-genetica{
+	font-size: 2em;
 }
 
 
