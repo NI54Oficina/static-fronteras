@@ -3604,6 +3604,7 @@ outline: none;
 
 .title-inside-ayuda h1{
   font-size: 2.4em;
+  margin-top: 10px;
 }
 
 .title-inside-ayuda p{
@@ -3619,7 +3620,7 @@ outline: none;
 }
 
 .ayuda-form-side{
-  padding:100px 0px;
+  padding:60px 0px;
   text-align: left;
 }
 
@@ -3629,7 +3630,7 @@ outline: none;
 }
 
 .ayuda-box-side{
-  padding: 100px 30px;
+  padding: 60px 30px;
 }
 
 .send-button-a{

@@ -1,33 +1,32 @@
 <!--FAV ICON-->
 	<link type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/img/favicon.ico" rel="shortcut icon" />
 
-
+		
 		<!--CSS-->
 		<link type="text/css"  rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/bootstrap.min.css">
 		<link type="text/css"  rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/custom-icons.css">
-
+		
 
 		<!--JS-->
 		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.js"></script>
 		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/bootstrap.min.js"></script>
-
+		
 
 
 		<script>
 			window.console = window.console || function(t) {};
 		</script> <!-- TERMINA JS PARALLAX-->
-
-
+		
+	
 		<!--JS-->
 		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.min.js"></script>
 		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jquery.mobile-events.min.js"></script>
+		 
 
-
-
+		
 	<!-- JS PROPIO -->
 		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/js.js "></script>
-		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/static.js "></script>
-
+	
 	<!--CSS PROPIO-->
 		<link type="text/css" rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/stylesheet.css"> <!-- general / interior pagina -->
 		<link type="text/css" rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/xl.css"> <!-- sp -->
@@ -40,7 +39,7 @@
 
 		<script>
 		$(document).ready(function () {
-
+			
 			$("body").on("click",".link-menu",function(evt){
 				var attr = $(this).attr('down');
 				var blank=false;
@@ -61,7 +60,7 @@
 				if (evt.ctrlKey||blank){
 					window.open($(this).attr("href"));
 				}else{
-
+					
 					window.location= $(this).attr("href");
 				}
 			});
