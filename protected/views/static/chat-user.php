@@ -1,7 +1,7 @@
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ayuda" id="ayuda">
 	<div class="col-xs-12  hidden-sm titulo-mobile-ayuda titulo-mobile"> <p> Ayuda </p> </div>
 
-	<p class="title-ayuda-mobile hidden-sm ">	Ingrese sus datos para comenzar</p>
+	<p class="title-ayuda-mobile hidden-sm ">	Ingrese sus datos para comenzar</br> <span class="atencion-cliente">La atención es de 8:30h a 17:00h</span></p>
 
 	<div class="col-lg-12 col-md-12 col-sm-4 col-xs-12 ayuda-box-side hidden-xs hidden-md hidden-lg ">
 		<div class="square box-title-ayuda">
@@ -25,6 +25,9 @@
 		<input name="email" required placeholder="Email" /><br>
 		<!-- <label>Motivo:</label> -->
 		<textarea name="motivo" required placeholder="Motivo" ></textarea> </br>
+		<p class="hidden-xs atencion-cliente ">
+			La atención es de 8:30h a 17:00h
+		</p>
 		<input type="submit" class="send-button-a" />
 		</form>
 
