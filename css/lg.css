@@ -567,8 +567,7 @@ font-size: 2em;
 .ganado-col-2 h1 {
     font-size: 5em;
 		text-align: center;
-		margin: -85px;
-		/*HARDCODEO INMUNDO, TESTING*/
+		margin-top:5%;
 }
 
 .boton-ganado {
@@ -597,9 +596,6 @@ font-size: 2em;
     height: 100px;
 }
 
-.ganado-col-2 h1 {
-display: inline;;
-	}
 
 .contenedor-botones-mobile {
     margin: 40px 0 !important;

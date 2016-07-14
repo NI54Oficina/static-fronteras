@@ -59,10 +59,10 @@ $ganado= EstadoCorporal::model()->findAll($Criteria);
 	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ganado-col-2">
 
 		<div class="contenedor-botones-mobile col-lg-12 col-md-12 col-sm-12 col-xs-12">
-				<button class="  hboton-ganado-mobile-1  boton-ganado preview-ganado" id="prev" ></button>
-	<h1 class="color-<?php echo $g["raza"]; ?>"><?php echo $g["estado"]; ?></h1>
+				<button class="  hboton-ganado-mobile-1  boton-ganado preview-ganado col-lg-1 col-md-1" id="prev" ></button>
+	<h1 class="col-lg-10 col-md-10 color-<?php echo $g["raza"]; ?>"><?php echo $g["estado"]; ?></h1>
 
-				<button class="   boton-ganado-mobile-2 boton-ganado next-ganado" id="next"></button>
+				<button class=" col-lg-1 col-md-1  boton-ganado-mobile-2 boton-ganado next-ganado" id="next"></button>
 
 		</div>
 
