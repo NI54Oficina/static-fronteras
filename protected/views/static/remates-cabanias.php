@@ -237,8 +237,11 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				}
 				?>
 				<div class="container-lugar info-remates-mobile col-lg-12 col-md-12" hid="1">
-					<p class=""><?php echo $remate["ciudad"]; ?></p>
-					<p class=""><?php echo $remate["detalle"]; ?></p>
+					<div class="center-to-parent">
+						<p ><?php echo $remate["ciudad"]; ?></p>
+						<p ><?php echo $remate["detalle"]; ?></p>
+					</div>
+
 				</div>
 				<?php } ?>
 			</div>
@@ -296,7 +299,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				}
 				?>
 				<div class="container-cabezas info-remates-mobile table-indexer col-lg-12 col-md-12" hid="1">
-					<p class=""><?php echo $remate["cantidad"]; ?></p>
+					<p class="center-to-parent"><?php echo $remate["cantidad"]; ?></p>
 				</div>
 				<?php } ?>
 			</div>

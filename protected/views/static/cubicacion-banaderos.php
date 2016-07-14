@@ -149,7 +149,7 @@ Si es posible una vez cubicado el baño esperar unas 12 hs, volver a tomar el pH
 <!--
 +++++++++++++++++++++++++++ -->
 
-<h2>Dosifiación Aspersin inmersión</h2>
+<h2>Dosificación Aspersin inmersión</h2>
 
 <h3> Pie de Baño</h3>
  <li>1 lt de Aspersin cada 1200 lt de agua</li>

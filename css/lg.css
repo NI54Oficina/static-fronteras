@@ -86,6 +86,10 @@ ads
 	}
 
 
+.info-remates-mobile{
+	min-height: 250px;
+}
+
  /*FIN GENERALES*/
 /*HOME*/
 
@@ -240,6 +244,15 @@ ads
 
     font-size: 5em;
 }
+
+.container-inside-noticia li{
+	font-size: 2em;
+}
+
+.container-inside-noticia img{
+	margin:20px 0px;
+}
+
 /*FIN SECCION NOTICIAS*/
 
 /*SECCION clima*/
@@ -295,6 +308,10 @@ ads
 
 .btn-mapas {
 	width: 100%;
+	margin-top: 0;
+	margin-bottom: 50px;
+	padding: 10px;
+	font-size: 1.2em;
 }
 
 #lluvias-temperaturas-h1 {
@@ -302,7 +319,7 @@ ads
 }
 
 .mapa-clima h3 {
-padding: 10px;
+padding: 20px;
 }
 
 .p-button-clima{
@@ -311,6 +328,10 @@ padding: 10px;
 
 .title-lluvia{
 	font-size: 5em;
+}
+
+.box-clima-mapas-inner {
+    margin-bottom: 100px;
 }
 
 /*FIN CLIMA*/
@@ -409,7 +430,7 @@ font-size: 2em;
     font-size:4em;
 }
 
-.general-container-producir p, .general-container-producir ul {
+.general-container-producir p {
     font-size:2em;
 }
 
@@ -428,6 +449,25 @@ font-size: 2em;
 
 
 /*FIN ENFERMEDADES*/
+
+/*ENFERMEDEADES INFECCIOSAS*/
+.selector-side form{
+ font-size: 2em;
+}
+
+/* FIN ENFERMEDEADES INFECCIOSAS*/
+
+
+/*PARASITOS EXTERNOS- PARASITOS INTERNOS*/
+.parasitos-externos h3{
+	font-size: 3em;
+}
+
+.enfermedades-inside-container h4{
+	font-size: 2.5em;
+}
+/* FIN PARASITOS EXTERNOS- PARASITOS INTERNOS*/
+
 /*PLANES SANITARIOS*/
 
 
@@ -475,9 +515,8 @@ font-size: 2em;
 
 .b-prot-at {
     top: 8% !important;
-    left: 5px;;
+    left: 5%;
     border: none;
-		font-size: 2em
 }
 .b-prot-ad {
     top: 8% !important;
@@ -527,7 +566,8 @@ font-size: 2em;
 .ganado-col-2 h1 {
     font-size: 5em;
 		text-align: center;
-		margin: 30px 25%;
+		margin: -85px;
+		/*HARDCODEO INMUNDO, TESTING*/
 }
 
 .boton-ganado {
@@ -571,6 +611,11 @@ display: inline;;
 .block-img img {
     width: 90%;
 }
+.producir-inside-container li, .producir-inside-container > h3 {
+    font-size: 2em !important;
+}
+
+
 
  /*FIN CUBICACION BAÑADEROS*/
 

@@ -235,8 +235,11 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				}
 				?>
 				<div class="container-lugar info-remates-mobile col-lg-12 col-md-12" hid="1">
-					<p class=""><?php echo $remate["lugar"]; ?></p>
-					<p class=""><?php echo $remate["detalle"]; ?></p>
+					<div class="center-to-parent">
+						<p ><?php echo $remate["lugar"]; ?></p>
+						<p ><?php echo $remate["detalle"]; ?></p>
+					</div>
+
 				</div>
 				<?php } ?>
 			</div>

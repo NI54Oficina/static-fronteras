@@ -9,7 +9,7 @@ $retiros= Retiro::model()->findAll();
  <section id="" class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section">
 
 
-<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs hidden-lg" >
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs hidden-lg hidden-md" >
 	<div class="box-sanidad border-shadow">
 		<div class="box-sanidad-inner ">
 
@@ -154,7 +154,7 @@ $retiros= Retiro::model()->findAll();
 
 			<!-- Retiro en leche -->
 
-			<div class="col-lg-12 col-md-6 col-sm-2-5 col-xs-12  remates-box containerColumnas">
+			<div class="col-lg-12 col-md-12 col-sm-2-5 col-xs-12  remates-box containerColumnas">
 
 				<!-- Titulo -->
 				<div class="title-remates color-retiro-productos"><h2> Retiro en leche</h2></div>
