@@ -90,6 +90,10 @@ ads
 	min-height: 250px;
 }
 
+header .home-upper-box > div{display:initial;}
+
+.header-mobb{opacity:1;}
+
  /*FIN GENERALES*/
 /*HOME*/
 

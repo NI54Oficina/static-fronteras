@@ -26,6 +26,7 @@
 		
 	<!-- JS PROPIO -->
 		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/js.js "></script>
+		<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/static.js "></script>
 	
 	<!--CSS PROPIO-->
 		<link type="text/css" rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/stylesheet.css"> <!-- general / interior pagina -->
