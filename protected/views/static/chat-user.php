@@ -1,9 +1,9 @@
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ayuda" id="ayuda">
-	<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-ayuda titulo-mobile"> <p> Ayuda </p> </div>
+	<div class="col-xs-12  hidden-sm titulo-mobile-ayuda titulo-mobile"> <p> Ayuda </p> </div>
 
-	<p class="title-ayuda-mobile hidden-lg hidden-md hidden-sm hidden-xl">	Ingrese sus datos para comenzar</p>
+	<p class="title-ayuda-mobile hidden-sm ">	Ingrese sus datos para comenzar</p>
 
-	<div class="col-lg-3 col-md-4 col-sm-4 col-xs-12 ayuda-box-side hidden-xs ">
+	<div class="col-lg-12 col-md-12 col-sm-4 col-xs-12 ayuda-box-side hidden-xs hidden-md hidden-lg ">
 		<div class="square box-title-ayuda">
 			<div class="center-to-parent title-inside-ayuda">
 				<h1> Ayuda</h1>
@@ -15,7 +15,7 @@
 	</div>
 
 
-	<div class="col-lg-6 col-md-8 col-sm-8 col-xs-12 ayuda-form-side">
+	<div class="col-lg-12 col-md-12 col-sm-8 col-xs-12 ayuda-form-side">
 
 
 		<form id="datosUser">

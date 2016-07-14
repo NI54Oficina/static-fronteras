@@ -767,7 +767,42 @@ header .home-upper-box img:nth-child(2) {
 
 /*FIN LOADING*/
 
+/*AYUDA-CHAT*/
 
+.title-ayuda-mobile {
+  font-size: 2em;
+}
+.send-button-a{
+	width: 100% !important;
+}
+
+#datosUser, .welcome-message, .chat-area .user-message, .chat-area .admin-message{
+	font-size: 2em;
+}
+.welcome-message span{
+	font-size: 2.5em;
+}
+
+#datosUser input, #datosUser textarea{
+	margin: 50px 0px;
+}
+.hold-message{
+	font-size: 1.5em;
+}
+.sendie {
+    min-height: 200px;
+	 font-size: 2em;
+}
+
+.chat-area {
+    height: 600px;
+}
+
+#ayuda {
+    padding: 150px 40px;
+}
+
+/*FIN AYUDA-CHAT*/
 
 
 
