@@ -769,6 +769,10 @@ header .home-upper-box img:nth-child(2) {
 
 /*AYUDA-CHAT*/
 
+#datosUser textarea {
+  height: 400px;;
+}
+
 .title-ayuda-mobile {
   font-size: 2em;
 }
@@ -795,7 +799,7 @@ header .home-upper-box img:nth-child(2) {
 }
 
 .chat-area {
-    height: 600px;
+    height: 80vh;
 }
 
 #ayuda {

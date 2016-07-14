@@ -25,7 +25,7 @@
 		<input name="email" required placeholder="Email" /><br>
 		<!-- <label>Motivo:</label> -->
 		<textarea name="motivo" required placeholder="Motivo" ></textarea> </br>
-		<p class="hidden-xs atencion-cliente ">
+		<p class="hidden-xs hidden-md hidden-lg atencion-cliente ">
 			La atención es de 8:30h a 17:00h
 		</p>
 		<input type="submit" class="send-button-a" />

@@ -346,6 +346,11 @@ header .home-box:hover > .hoy-box {
 	background:transparent !important;
 }
 
+.boton-volver-header{position:absolute;}
+#inner-header  .home-upper-box{padding:10px 22px;padding-top:45px;}
+.header-mobb{padding:15px 15px !important;}
+#inner-header{background-size:auto 100%;}
+
 
 /******************FIN HEADER ********************/
 
@@ -3616,7 +3621,7 @@ outline: none;
   border-bottom: 2px solid  #79BEFE;
   color:#adadad;
   width: 100%;
-  margin: 10px 0px;
+  margin: 20px 0px;
 }
 
 .ayuda-form-side{
@@ -3640,6 +3645,7 @@ outline: none;
   float: right;
   /*margin-right: 50px;*/
   padding: 5px;
+  border: none;
 }
 
 #ayuda{
@@ -3739,6 +3745,11 @@ width:50%;
 float:right;
 margin-left:10%;
 text-align:right;
+}
+
+.atencion-cliente{
+  font-size: 0.8em;
+  color:  #adadad;
 }
 
 /**************Fin Chat
