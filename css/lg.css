@@ -692,7 +692,9 @@ header .home-upper-box img:nth-child(2) {
 .img-2-splash > img {
     width: 20em;
 }
-
+.img-2-splash > img{
+	width: 20%;
+}
 #bg-square-2 {
     background-image: url(../img/cuadrado-botonera.png);
     min-height: 5px;
