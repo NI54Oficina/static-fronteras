@@ -1,9 +1,9 @@
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section" id="aborto-bovino">
 
-<div class="col-xs-12 hidden-lg hidden-sm hidden-md hidden-xl titulo-mobile-producir titulo-mobile"> <p> Aborto bovino infeccioso </p> </div>
+<div class="col-xs-12hidden-sm titulo-mobile-producir titulo-mobile"> <p> Aborto bovino infeccioso </p> </div>
 
 
-<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs">
+<div class="box-producir-3 col-lg-12 col-md-12 col-sm-12 col-xs-12 hidden-xs hidden-lg hidden-md">
 	<div class="box-sanidad border-shadow">
 		<div class="box-sanidad-inner ">
 			<p class="center-to-parent color-sanidad planes-h1">Aborto bovino infeccioso</p>
@@ -12,19 +12,19 @@
 </div>
 
 
-<div class="col-lg12 col-md-12 col-sm-12 col-xs-12 general-container-producir">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 general-container-producir">
 
-	<div class="col-lg-2 col-md-3 col-sm-3 col-xs-12 selector-side" >
+	<div class="col-lg-12 col-md-12 col-sm-3 col-xs-12 selector-side" >
 
 
-		<div class="enfermedades-inside-title square hidden-xs">
+		<div class="enfermedades-inside-title square hidden-xs hidden-lg hidden-md">
 			<h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 center-to-parent">
 
 			</h2>
 		</div>
 	</div>
 
-<div class="col-lg-10 col-md-9 col-sm-9 col-xs-12 producir-inside-container" >
+<div class="col-lg-12 col-md-12 col-sm-9 col-xs-12 producir-inside-container" >
 
 
 <p>El aborto es definido como la interrupción de la gestación y la consecuente pérdida del

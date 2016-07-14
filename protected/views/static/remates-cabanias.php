@@ -213,7 +213,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 				}
 				?>
 				<div class="container-consignatorio info-remates-mobile col-lg-12 col-md-12" hid="1">
-					<p class=" "><?php echo $remate["consignatario"]; ?></p>
+					<p class="center-to-parent"><?php echo $remate["consignatario"]; ?></p>
 				</div>
 				<?php } ?>
 			</div>

@@ -2783,7 +2783,7 @@ outline: none;
 .container-modalidad{
     min-height: 70px;
     border-bottom: 1px solid grey;
-    text-align: left;
+    text-align:center;
 }
 
 .container-modalidad-retiro{
