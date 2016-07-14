@@ -7,7 +7,7 @@ $iconEqual='<span class="glyphicon" style="font-size:1.5em;position:relative;top
 
 <div class=" col-lg-12 col-md-12 col-sm-12 col-xs-12 box-mercado">
 
-	<div class="box-mercado-title col-lg-12 col-md-12 col-sm-6 col-xs-12 hidden-xs hidden-lg" hid="1">
+	<div class="box-mercado-title col-lg-12 col-md-12 col-sm-6 col-xs-12 hidden-xs hidden-lg hidden-md" hid="1">
 
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
 

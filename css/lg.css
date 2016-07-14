@@ -118,6 +118,21 @@ ads
 		z-index: 1;
 	}
 
+
+	.prod-gota-menu {
+	    width: 100%;
+	}
+
+	@keyframes testing-gota {
+	    50%   {width: 85%;}
+	    50%  {width:95%;}
+
+	}
+
+	.gota-producir {
+    padding: 80px 50px;
+}
+
 	/*FIN PRODUCIR*/
 
 /*HOY*/
@@ -693,9 +708,21 @@ header .home-upper-box img:nth-child(2) {
 }
 .info-remates-mobile img {
     width: 60%;
-
+}
 /*FIN REMATES*/
 
+
+/*LOADING*/
+
+.loading-gif img{
+	width: 60%;
+}
+
+.loading-gif {
+	margin: 30% auto;
+}
+
+/*FIN LOADING*/
 
 
 

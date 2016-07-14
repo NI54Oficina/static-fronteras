@@ -13,7 +13,7 @@
 				</form>
 		</div>
 
-		<div class="hidden-lg col-lg-12 col-md-12 col-sm-12 col-xs-12 clima-title fillerChildren hidden-xs">
+		<div class="hidden-lg col-lg-12 col-md-12 col-sm-12 col-xs-12 clima-title fillerChildren hidden-xs hidden-md">
 
 				<h1 class="center-to-parent">Clima</h1>
 

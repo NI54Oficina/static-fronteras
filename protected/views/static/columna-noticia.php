@@ -5,7 +5,7 @@ include("clases-noticias.php");
 ?>
 
 
-<div id="noticia-col" class="hidden-lg col-md-3 col-sm-4 hidden-xs  noticia-columna">
+<div id="noticia-col" class="hidden-lg col-md-3 col-sm-4 hidden-xs hidden-md   noticia-columna">
 
 <p class="titulo-seccion-columna">MÁS NOTICIAS</p>
 

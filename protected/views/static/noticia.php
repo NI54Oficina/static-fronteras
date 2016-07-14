@@ -30,7 +30,7 @@ $currentId= $nota["id"];
 
 <section  class="col-lg-12 col-md-12 col-sm-12 col-xs-12 section <?php if(isset($secciones[$nota["categoria"]])){ echo $secciones[$nota["categoria"]];} ?>">
 
-<div class="col-xs-12 hidden-sm  titulo-mobile-hoy titulo-mobile"> <p> Hoy </p> </div>
+<div class="col-xs-12 hidden-sm  titulo-mobile-hoy titulo-mobile"> <p> Noticias del sector </p> </div>
 
 <div id="noticia-art" class="col-lg-12 col-md-12 col-sm-8 col-xs-12 container-inside-noticia">
 
