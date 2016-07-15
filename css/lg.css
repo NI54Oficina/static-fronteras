@@ -491,7 +491,7 @@ font-size: 2em;
 
 /*RETIRO PRODUCTOS - SLIDER DE PRODUCTOS DE REMATES EN VARIOS LADOS*/
 .title-remates {
-    height: 70px;
+    height: 100px;
 }
 
 #retiro-producto-p-1, #retiro-producto-p-2, #retiro-producto-p-3 {
@@ -759,7 +759,7 @@ header .home-upper-box img:nth-child(2) {
     top: 64%;
 }
 .info-remates-mobile img {
-    width: 60%;
+    width: 50%;
 }
 /*FIN REMATES*/
 
@@ -779,7 +779,7 @@ header .home-upper-box img:nth-child(2) {
 /*AYUDA-CHAT*/
 
 #datosUser textarea {
-  height: 400px;;
+  height: 500px;
 }
 
 .title-ayuda-mobile {
@@ -798,6 +798,7 @@ header .home-upper-box img:nth-child(2) {
 
 #datosUser input, #datosUser textarea{
 	margin: 50px 0px;
+	min-height: 90px;
 }
 .hold-message{
 	font-size: 1.5em;
@@ -805,16 +806,25 @@ header .home-upper-box img:nth-child(2) {
 .sendie {
     min-height: 200px;
 	 font-size: 2em;
+
 }
+
+.max-box-chat {
+    background-color: rgb(248, 242, 236) !important;
+		padding: 30px;
+	}
 
 .chat-area {
     height: 80vh;
 }
 
 #ayuda {
-    padding: 150px 40px;
+    padding: 90px 40px;
 }
 
+.ayuda-form-side{
+	padding: 0;
+}
 /*FIN AYUDA-CHAT*/
 
 

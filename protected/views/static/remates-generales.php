@@ -158,7 +158,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Modalidad</h2></div>
+				<div class="title-remates color-generales" ><h2 class="center-to-parent">Modalidad</h2></div>
 
 				<!--Contenido -->
 				<?php
@@ -193,7 +193,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Consignatario</h2></div>
+				<div class="title-remates color-generales"><h2 class="center-to-parent">Consignatario</h2></div>
 
 				<!--Contenido -->
 				<?php
@@ -220,7 +220,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Lugar</h2></div>
+				<div class="title-remates color-generales" ><h2 class="center-to-parent">Lugar</h2></div>
 
 				<!--Contenido -->
 				<?php
@@ -249,7 +249,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Provincia</h2></div>
+				<div class="title-remates color-generales" ><h2 class="center-to-parent">Provincia</h2></div>
 
 				<!--Contenido -->
 				<?php
@@ -286,7 +286,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 c remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-generales" hid="2"><h2 class="center-to-parent">Cabezas</h2></div>
+				<div class="title-remates color-generales" ><h2 class="center-to-parent">Cabezas</h2></div>
 
 				<!--Contenido -->
 				<?php

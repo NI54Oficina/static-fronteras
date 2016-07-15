@@ -86,7 +86,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 
 			<?php } ?>
 
-			<div class="title-remates color-cabanias hidden-xs hidden-lg hidden-sm hidden-md col-lg-12 col-md-12" hid="2"> <h2 class="center-to-parent">Fecha</h2></div>
+			<div class="title-remates color-cabanias hidden-xs hidden-lg hidden-sm hidden-md col-lg-12 col-md-12" > <h2 class="center-to-parent">Fecha</h2></div>
 					<!-- Caja fecha particular -->
 
 					<?php
@@ -167,7 +167,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-cabanias" hid="2"><h2 class="center-to-parent">Modalidad</h2></div>
+				<div class="title-remates color-cabanias" ><h2 class="center-to-parent">Modalidad</h2></div>
 				<!--Contenido -->
 				<?php
 				ResetFecha();
@@ -200,7 +200,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-cabanias" hid="2"><h2 class="center-to-parent">Consignatario</h2></div>
+				<div class="title-remates color-cabanias" ><h2 class="center-to-parent">Consignatario</h2></div>
 				<!--Contenido -->
 				<?php
 				ResetFecha();
@@ -224,7 +224,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-cabanias" hid="2"><h2 class="center-to-parent">Lugar</h2></div>
+				<div class="title-remates color-cabanias" ><h2 class="center-to-parent">Lugar</h2></div>
 				<!--Contenido -->
 				<?php
 				ResetFecha();
@@ -251,7 +251,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6  remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-cabanias" hid="2"><h2 class="center-to-parent">Provincia</h2></div>
+				<div class="title-remates color-cabanias" ><h2 class="center-to-parent">Provincia</h2></div>
 				<!--Contenido -->
 				<?php
 				ResetFecha();
@@ -286,7 +286,7 @@ function CheckFecha($remate,&$auxLastFecha,&$newDate){
 			<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-cabanias" hid="2"><h2 class="center-to-parent">Cabezas</h2></div>
+				<div class="title-remates color-cabanias"><h2 class="center-to-parent">Cabezas</h2></div>
 				<!--Contenido -->
 				<?php
 				ResetFecha();
