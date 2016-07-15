@@ -1,2 +1,0 @@
-
-<div class='user-message-container'><p class='user-nick'>s</p> <p class='user-message'> sdfsdf </p></div><br>

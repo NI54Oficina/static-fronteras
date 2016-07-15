@@ -50,6 +50,8 @@
         <form class="send-message-area max-box-chat">
             <!-- <p>Your message: </p> -->
             <textarea class="sendie" maxlength="300" placeholder="Escriba su mensaje aquí"  ></textarea>
+						<button class="center-to-parent send-chat" type="" name="button" style="">Enviar</button>
+
         </form>
 
 		</div>

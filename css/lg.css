@@ -789,6 +789,7 @@ header .home-upper-box img:nth-child(2) {
 
 .title-ayuda-mobile {
   font-size: 2em;
+	margin-bottom: 50px;
 }
 .send-button-a{
 	width: 100% !important;
@@ -811,6 +812,7 @@ header .home-upper-box img:nth-child(2) {
 .sendie {
     min-height: 200px;
 	 font-size: 2em;
+	 width: 80%;
 
 }
 
@@ -829,6 +831,20 @@ header .home-upper-box img:nth-child(2) {
 
 .ayuda-form-side{
 	padding: 0;
+}
+
+.chatUser{
+	border-radius: 10px;
+}
+
+
+.send-chat{
+	float:right;
+	width:19%;
+	background-color:#79BEFE;
+	color:white; border:none;
+	padding: 20px 0px;
+	font-size:2em;
 }
 /*FIN AYUDA-CHAT*/
 
