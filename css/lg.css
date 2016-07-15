@@ -374,9 +374,14 @@ padding: 20px;
 font-size: 2em;
 }
 
-.table-mercado-items div p, .box-mercado .table-mercado-items .moneda-mercados {
-	font-size: 1.7em;
+.table-mercado-items div p, .box-mercado .table-mercado-items .moneda-mercados{
+	font-size: 1.8em;
 }
+
+.table-mercado-items div span{
+	font-size: 1em;
+}
+
 
 /*FIN MERCADOS*/
 

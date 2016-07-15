@@ -208,10 +208,11 @@ header .home-box:hover > .hoy-box {
     color:#adadad;
     font-size: 1em;
     margin-bottom: 0px;
-    margin-top: -5%;
+    margin-top: 0;
     display: block;
     text-align: center;
     width: 6vw;
+	/*padding-top:0.3em;*/
 }
 
 .square-separador{
@@ -695,8 +696,14 @@ header .home-box:hover > .hoy-box {
 .table-mercado{
 	min-height:30px!important;
 	padding:0!important;
-	border-bottom:1px solid #F2F2F2;
+
 }
+
+.table-mercado .table-mercado-items{
+	border-bottom:1px solid #F2F2F2;
+	background-color:white;
+}
+
 
 .table-mercado div{
 	padding:0;
@@ -779,7 +786,7 @@ header .home-box:hover > .hoy-box {
 }
 .table-mercado-items > div {
 
-	
+
 }
 
 .table-mercado-items > div:nth-child(2) > h3{
@@ -3129,6 +3136,10 @@ outline: none;
 	text-align: left;
 }
 
+.bloque-imagenes-cub{
+  margin-top: 25px;
+}
+
 .block-img  p {
 	width:100%;
 	border-top: 2px solid #003D6A ;
@@ -3542,7 +3553,7 @@ outline: none;
 
 /**************Inicio Chat******************/
 .chat-area{
-	height:200px;
+	height:400px;
 	overflow:auto;
 	width:100%;
 	padding:10px;
@@ -3600,7 +3611,10 @@ outline: none;
 }
 .sendie{
 	width:100%;
+  border: none;
+  background-color: white;
 }
+
 
 
 .activeChat{
@@ -3609,6 +3623,7 @@ outline: none;
 
 .box-title-ayuda{
   background-color: #79BEFE;
+  padding: 15px 0px;
 }
 
 .title-inside-ayuda{
@@ -3631,10 +3646,18 @@ outline: none;
   color:#adadad;
   width: 100%;
   margin: 20px 0px;
+  min-height: 40px;
+  outline: none;
 }
 
+#datosUser textarea{
+  height: 140px;
+}
+
+
+
 .ayuda-form-side{
-  padding:60px 0px;
+  padding:40px 0px;
   text-align: left;
 }
 
@@ -3644,21 +3667,22 @@ outline: none;
 }
 
 .ayuda-box-side{
-  padding: 60px 30px;
+  padding: 40px 30px;
 }
 
 .send-button-a{
-  background:#79BEFE;
+  background:#79BEFE ;
   color: white !important;
   width:50% !important;
   float: right;
   /*margin-right: 50px;*/
   padding: 5px;
   border: none;
+  margin-top: 40px !important;
 }
 
 #ayuda{
-  padding: 30px;
+  padding: 0px 30px;
 }
 
 .title-ayuda-mobile{
@@ -3689,7 +3713,7 @@ outline: none;
 
 .info-ayuda-admin {
   color:white;
-  background-color: #79BEFE;
+  background-color: #00173b;
   margin:0 ;
   padding: 5px;
 
@@ -3751,14 +3775,18 @@ outline: none;
 .user-message-container{
 display:inline-block;
 width:50%;
-float:right;
-margin-left:10%;
+
+margin-left:49%;
 text-align:right;
 }
 
 .atencion-cliente{
   font-size: 0.8em;
   color:  #adadad;
+}
+
+.img-box-ayuda{
+  width:5em;
 }
 
 /**************Fin Chat
