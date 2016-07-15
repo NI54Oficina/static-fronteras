@@ -102,7 +102,7 @@ $retiros= Retiro::model()->findAll();
 			<div class="col-lg-6 col-md-6 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-retiro-productos"><h2>Producto Senasa</h2></div>
+				<div class="title-remates color-retiro-productos"><h2 class=" center-to-parent ">Producto Senasa</h2></div>
 				<!--Contenido -->
 				<?php
 				$loopIndex=5;
@@ -121,7 +121,7 @@ $retiros= Retiro::model()->findAll();
 			<div class="col-lg-6 col-md-6 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-retiro-productos"><h2>Nombre Comercial Reg</h2></div>
+				<div class="title-remates color-retiro-productos"><h2 class=" center-to-parent ">Nombre Comercial Reg</h2></div>
 				<!--Contenido -->
 				<?php
 				$loopIndex=5;
@@ -139,7 +139,7 @@ $retiros= Retiro::model()->findAll();
 			<div class="col-lg-6 col-md-6 col-sm-2-5 col-xs-6 remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-retiro-productos"><h2> Retiro en carne</h2></div>
+				<div class="title-remates color-retiro-productos"><h2 class=" center-to-parent "> Retiro en carne</h2></div>
 				<!--Contenido -->
 				<?php
 				$loopIndex=5;
@@ -157,12 +157,12 @@ $retiros= Retiro::model()->findAll();
 			<div class="col-lg-12 col-md-12 col-sm-2-5 col-xs-12  remates-box containerColumnas">
 
 				<!-- Titulo -->
-				<div class="title-remates color-retiro-productos"><h2> Retiro en leche</h2></div>
+				<div class="title-remates color-retiro-productos"><h2 class=" center-to-parent "> Retiro en leche</h2></div>
 				<!--Contenido -->
 				<?php
 				$loopIndex=5;
 				foreach($retiros as $retiro){ ?>
-				<div class="container-cabezas info-remates-mobile" hid="<?php echo $loopIndex; ?>">
+				<div class="container-cabezas info-remates-mobile" style="min-height:200px;">
 
 					<p class="center-to-parent" id="retiro-producto-p-3"><?php echo $retiro->retiroLeche; ?></p>
 
