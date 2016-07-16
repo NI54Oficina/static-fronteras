@@ -22,62 +22,37 @@ function Chat () {
 	this.instanse=false;
 }
 
+var nombreUser="usuario";
+
 //gets the state of the chat
 function getStateOfChat(idChat){
-	if(!chats[idChat].instanse){
-		 chats[idChat].instanse = true;
-		 $.ajax({
-			   type: "POST",
-			   url: sendURL+"/id/"+idChat,
-			   data: {
-			   			'function': 'getState',
-						'file': file
-						},
-			   dataType: "json",
-
-			   success: function(data){
-				   chats[idChat].state = data.state;
-				   chats[idChat].instanse = false;
-			   },
-			});
-	}
+	
 }
 
+var admMsg="";
+var firstMSG=true;
 //Updates the chat
 function updateChat(idChat){
-	//console.log("entra server");
-	 if(!chats[idChat].instanse){
-		 chats[idChat].instanse = true;
-	     $.ajax({
-			   type: "POST",
-			   url: sendURL+"/id/"+idChat,
-			   data: {
-			   			'function': 'update',
-						'state': chats[idChat].state,
-						'file': file
-						},
-			   dataType: "json",
-			   success: function(data){
-				   if(data.text){
-						for (var i = 0; i < data.text.length; i++) {
-                            $('[chatid='+idChat+'] .chat-area').append($("<p>"+ data.text[i] +"</p>"));
-                        }
-						$('[chatid='+idChat+'] .chat-area').scrollTop(10000000);
-						if(idChat!=activeChat){
-							$('[idChat='+idChat+']').addClass("unreadChat");
-						}
-				   }
-				   //document.getElementById('chat-area').scrollTop = document.getElementById('chat-area').scrollHeight;
-				   chats[idChat].instanse = false;
-				   chats[idChat].state = data.state;
-
-			   },
-			});
-	 }
-	 else {
-		 //setTimeout(updateChat(idChat), 1500);
-	 }
-
+	//$('[chatid='+idChat+'] .chat-area').append(
+	var auxM="<div class='user-message-container'><p class='user-nick'>"+ nombreUser + "</p> <p class='user-message'> " + idChat+"</p></div>" + "\n";
+	$('[chatid=-1] .chat-area').append(auxM);
+	
+	if(firstMSG){
+		firstMSG=false;
+		setTimeout(function(){
+			admMsg="<div class='admin-message-container'><p class='admin-nick'>"+ "Admin" + "</p> <p class='admin-message'> " + "Hola, bienvenido a la mesa de ayuda."+"</p></div>" + "\n";
+			$('[chatid=-1] .chat-area').append(admMsg);
+		},2500);
+		setTimeout(function(){
+			admMsg="<div class='admin-message-container'><p class='admin-nick'>"+ "Admin" + "</p> <p class='admin-message'> " + "¿En que puedo ayudarle?"+"</p></div>" + "\n";
+			$('[chatid=-1] .chat-area').append(admMsg);
+		},4200);
+	}else{
+		setTimeout(function(){
+			admMsg="<div class='admin-message-container'><p class='admin-nick'>"+ "Admin" + "</p> <p class='admin-message'> " + "Puede obtener más información en la mesa de ayuda de la aplicación. El horario de atención es de 8:30 a 17 horas ¡Lo esperamos! "+"</p></div>" + "\n";
+			$('[chatid=-1] .chat-area').append(admMsg);
+		},4200);
+	}
 }
 
 var baseChat='<div class="page-wrap" chatid="{chatID}"><div class="chat-wrap"><div class="chat-area"></div></div><form class="send-message-area"><textarea class="sendie" maxlength="300"></textarea></form></div>';
@@ -120,28 +95,15 @@ function CheckNewChats(){
 //send the message
 function sendChat(message, nickname,idChat)
 {
-    updateChat(idChat);
-     $.ajax({
-		   type: "POST",
-		   url: sendURL+"/id/"+idChat,
-		   data: {
-		   			'function': 'send',
-					'message': message,
-					'nickname': nickname,
-					'file': file
-				 },
-		   dataType: "json",
-		   success: function(data){
-			   updateChat(idChat);
-		   },
-		});
+    updateChat(message);
+    
 }
 
 
 function UpdateChats(){
-	$.each(chats,function(key,value){
+	/*$.each(chats,function(key,value){
 		chats[key].update(key);
-	});
+	});*/
 }
 
 $("body").on("click",".chatSelector",function(){
@@ -164,11 +126,8 @@ $("#datosUser").on('submit', function(e){
     $(".title-inside-ayuda p").hide();
     $(".title-ayuda-mobile").hide();
 	  $("#datosUser").hide();
-	  $.post(registerURL,{nombre:$("#datosUser [name=nombre]").val(),email:$("#datosUser [name=email]").val(),motivo:$("#datosUser [name=motivo]").val()},function(data){
-		  if(data!=""){
-			  InitUserChat(data);
-		  }
-	  });
+	  nombreUser=$("#datosUser [name=nombre]").val();
+			  InitUserChat("-1");
   });
 
   function InitUserChat(data){

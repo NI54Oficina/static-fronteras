@@ -1,6 +1,6 @@
 <?php include("session-clima.php"); ?>
 
-<select id="localidad-clima" name="localidad" class="selectLoc">
+<select id="localidad-clima" name="localidad" class="selectLoc" disabled style="background-image:none;" >
 	<?php foreach($localidades as $key=>$value){ 
 	if($key==$localidad){
 	?>

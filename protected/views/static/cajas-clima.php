@@ -8,7 +8,7 @@
 		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 form-clima fixedChildren">
 
 
-				<form method="post" id="formClima" >
+				<form method="post" id="formClima"  >
 				<?php include("selector-localidades.php"); ?>
 				</form>
 		</div>
