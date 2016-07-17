@@ -1,3 +1,20 @@
+
+        <link rel="stylesheet" href="<?php echo Yii::app()->request->baseUrl; ?>/css/jsKeyboard.css" type="text/css" media="screen"/>
+
+
+		<script type="text/javascript">
+      /*(function(){
+        var bsa = document.createElement('script');
+           bsa.type = 'text/javascript';
+           bsa.async = true;
+           bsa.src = 'http://s3.buysellads.com/ac/bsa.js';
+        (document.getElementsByTagName('head')[0]||document.getElementsByTagName('body')[0]).appendChild(bsa);
+      })();*/
+      </script>
+      <!-- End BuySellAds Ad Code -->
+	  <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+	  
+	  
 <section class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ayuda" id="ayuda">
 	<div class="col-xs-12  hidden-sm titulo-mobile-ayuda titulo-mobile"> <p> Ayuda </p> </div>
 
@@ -57,6 +74,13 @@
 		</div>
 
 	</div>
-
+	
+	<div id="virtualKeyboard"></div>
 
 </section>
+
+<script type="text/javascript" src="<?php echo Yii::app()->request->baseUrl; ?>/js/jsKeyboard.js"></script>
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/main2.js"></script>
+
+
+<script>setTimeout(function(){$("[name=nombre]").focus();},1500);</script>
